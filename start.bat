@@ -1,1 +1,1 @@
-java -Xmx7G -jar sv.jar --nogui
+java -Xms7G -jar sv.jar --nogui
