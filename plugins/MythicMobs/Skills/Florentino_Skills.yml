@@ -1,0 +1,719 @@
+MMC_Florentino_xSkill_Blossom:
+  Skills:
+  - setvariable{var=skill.FlorentinoX;t=INTEGER;value=0}
+  - projectile{onTick=MMC_Florentino_xSkill_Blossom_Tick;onHit=MMC_Florentino_xSkill_Blossom_Hit;hs=true;hnp=true;hfs=1;v=20;i=1;mr=7;hR=0.45;sE=true;sB=true;sfo=-0.2;syo=1} @TargetLocation
+
+MMC_Florentino_xSkill_Blossom_Tick:
+  Skills:
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.8}
+MMC_Florentino_xSkill_Blossom_Hit:
+  Conditions:
+  - varEquals{var=skill.FlorentinoX;value=0}
+  Skills:
+  - variableadd{var=skill.FlorentinoX;amount=1}
+  - sound{s=item.trident.return;p=0.7} @self
+  - stun{d=20;f=true;ai=true}
+  - skill{s=MMC_Florentino_xSkill_xAura} @self
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=0.003;zoffset=0;yoffset=0.5}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.003;zoffset=-0.002;yoffset=0.5}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.003;zoffset=0.002;yoffset=0.5}
+  - delay 1
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=0.228;zoffset=0;yoffset=0.65}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.122;zoffset=0.202;yoffset=0.65}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.122;zoffset=-0.202;yoffset=0.65}
+  - delay 1
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=0.459;zoffset=0;yoffset=0.75}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.241;zoffset=0.406;yoffset=0.75}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.241;zoffset=-0.406;yoffset=0.75}
+  - delay 1
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=0.69;zoffset=0;yoffset=0.85}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.36;zoffset=0.61;yoffset=0.85}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.36;zoffset=-0.61;yoffset=0.85}
+  - delay 1
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=0.921;zoffset=0;yoffset=0.85}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.479;zoffset=0.814;yoffset=0.85}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.479;zoffset=-0.814;yoffset=0.85}
+  - delay 1
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=1.152;zoffset=0;yoffset=0.83}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.598;zoffset=1.018;yoffset=0.83}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.598;zoffset=-1.018;yoffset=0.83}
+  - delay 1
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=1.383;zoffset=0;yoffset=0.8}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.717;zoffset=1.222;yoffset=0.8}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.717;zoffset=-1.222;yoffset=0.8}
+  - delay 1
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=1.614;zoffset=0;yoffset=0.75}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.836;zoffset=1.426;yoffset=0.75}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.836;zoffset=-1.426;yoffset=0.75}
+  - delay 1
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=1.845;zoffset=0;yoffset=0.65}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.955;zoffset=1.63;yoffset=0.65}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-0.955;zoffset=-1.63;yoffset=0.65}
+  - delay 1
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=2.076;zoffset=0;yoffset=0.55}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-1.074;zoffset=1.834;yoffset=0.55}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-1.074;zoffset=-1.834;yoffset=0.55}
+  - delay 1
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=2.307;zoffset=0;yoffset=0.45}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-1.193;zoffset=2.038;yoffset=0.45}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-1.193;zoffset=-2.038;yoffset=0.45}
+  - delay 1
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=2.538;zoffset=0;yoffset=0.35}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-1.312;zoffset=2.242;yoffset=0.35}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-1.312;zoffset=-2.242;yoffset=0.35}
+  - delay 1
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=2.769;zoffset=0;yoffset=0.15} 
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-1.431;zoffset=2.446;yoffset=0.15}
+  - effect:particles{p=reddust;c=#FF00FF;Size=0.6;vd=15} @Origin{xoffset=-1.431;zoffset=-2.446;yoffset=0.15}
+  - delay 5
+  - summon{t=MMC_Florentino_Mobs;a=1;sio=true;sip=true} @Origin{xoffset=-1.55;zoffset=-2.65;yoffset=-4}
+  - summon{t=MMC_Florentino_Mobs;a=1;sio=true;sip=true} @Origin{xoffset=-1.55;zoffset=2.65;yoffset=-4}
+  - summon{t=MMC_Florentino_Mobs;a=1;sio=true;sip=true} @Origin{xoffset=3;zoffset=0;yoffset=-4}
+  
+MMC_Florentino_xSkill_xAura:
+  Skills:
+  - Aura{auraName=MMC_FlorentinoX;onTick=MMC_Florentino_xSkill_xAura_Tick;interval=1;duration=80} @self
+  - Aura{auraName=MMC_FlorentinoX;onTick=MMC_Florentino_xSkill_xAura_Tick;interval=1;duration=80}
+  
+MMC_Florentino_xSkill_xAura_Tick:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=3.036}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.016;zoffset=0;yoffset=3.036}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=3.036}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=3.003}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=3.003}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=2.97}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=2.97}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=2.936}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=2.936}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=2.903}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=2.903}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=2.87}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=2.87}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=2.836}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=2.836}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.083;zoffset=0;yoffset=2.803}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=2.803}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=2.803}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.05;zoffset=0;yoffset=2.803}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.183;zoffset=0;yoffset=2.77}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.083;zoffset=0;yoffset=2.77}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.05;zoffset=0;yoffset=2.77}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.15;zoffset=0;yoffset=2.77}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.183;zoffset=0;yoffset=2.736}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.15;zoffset=0;yoffset=2.736}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.083;zoffset=0;yoffset=2.736}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.05;zoffset=0;yoffset=2.736}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.116;zoffset=0;yoffset=2.736}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.15;zoffset=0;yoffset=2.736}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.15;zoffset=0;yoffset=2.703}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.116;zoffset=0;yoffset=2.703}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.083;zoffset=0;yoffset=2.703}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=2.703}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.016;zoffset=0;yoffset=2.703}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=2.703}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.05;zoffset=0;yoffset=2.703}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.083;zoffset=0;yoffset=2.703}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.116;zoffset=0;yoffset=2.703}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.116;zoffset=0;yoffset=2.67}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.083;zoffset=0;yoffset=2.67}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.116;zoffset=0;yoffset=2.636}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.083;zoffset=0;yoffset=2.636}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.116;zoffset=0;yoffset=2.603}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.083;zoffset=0;yoffset=2.603}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.116;zoffset=0;yoffset=2.57}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.083;zoffset=0;yoffset=2.57}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.05;zoffset=0;yoffset=2.57}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.083;zoffset=0;yoffset=2.57}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.083;zoffset=0;yoffset=2.536}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.05;zoffset=0;yoffset=2.536}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.083;zoffset=0;yoffset=2.504}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.05;zoffset=0;yoffset=2.504}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.083;zoffset=0;yoffset=2.47}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.05;zoffset=0;yoffset=2.47}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.083;zoffset=0;yoffset=2.437}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.05;zoffset=0;yoffset=2.437}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.083;zoffset=0;yoffset=2.404}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.05;zoffset=0;yoffset=2.404}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.083;zoffset=0;yoffset=2.37}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.05;zoffset=0;yoffset=2.37}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.083;zoffset=0;yoffset=2.337}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.05;zoffset=0;yoffset=2.337}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.083;zoffset=0;yoffset=2.304}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=2.304}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=2.304}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.05;zoffset=0;yoffset=2.304}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=2.27}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=2.27}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=2.237}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=2.237}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=2.204}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=2.204}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=2.17}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=2.17}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=2.137}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=2.137}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=2.104}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=2.104}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.05;zoffset=0;yoffset=2.07}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.016;zoffset=0;yoffset=2.07}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=0.016;zoffset=0;yoffset=2.07}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.016;zoffset=0;yoffset=2.037}
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.2} @Origin{xoffset=-0.016;zoffset=0;yoffset=2.004}
+
+
+MMC_Florentino_xSkill_xAuraMobs:
+  Skills:
+  - projectile{oT=MMC_Florentino_xSkill_xAura_Tickx;onHit=MMC_Florentino_xSkill_xMobsSkill;i=1;d=110;sB=false;hnp=true;sE=false;mr=1;v=0;vR=1;hR=0.35;sfo=0;sso=0;syo=3.3} @self
+  - delay 110
+  - remove @self
+MMC_Florentino_xSkill_xAura_Tickx:
+  Skills:
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=0;zoffset=0.4;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=0.1;zoffset=0.3;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=0.2;zoffset=0.2;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=0.3;zoffset=0.1;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=0.4;zoffset=0.0;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=-0;zoffset=0.4;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=-0.1;zoffset=0.3;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=-0.2;zoffset=0.2;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=-0.3;zoffset=0.1;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=-0.4;zoffset=0.0;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=0;zoffset=-0.4;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=0.1;zoffset=-0.3;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=0.2;zoffset=-0.2;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=0.3;zoffset=-0.1;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=0.4;zoffset=-0.0;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=-0;zoffset=-0.4;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=-0.1;zoffset=-0.3;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=-0.2;zoffset=-0.2;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=-0.3;zoffset=-0.1;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.35;vd=2;a=1} @Origin{xoffset=-0.4;zoffset=-0.0;yoffset=0.01}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=0;yoffset=0.6}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=0.05;yoffset=0.55}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=0.1;yoffset=0.50}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=0.15;yoffset=0.45}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=0.2;yoffset=0.40}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=0.15;yoffset=0.35}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=0.1;yoffset=0.30}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=0.05;yoffset=0.25}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=0;yoffset=0.2}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=-0;yoffset=0.6}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=-0.05;yoffset=0.55}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=-0.1;yoffset=0.50}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=-0.15;yoffset=0.45}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=-0.2;yoffset=0.40}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=-0.15;yoffset=0.35}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=-0.1;yoffset=0.30}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=-0.05;yoffset=0.25}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=-0;yoffset=0.2}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=0;yoffset=0.6}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0.05;zoffset=0;yoffset=0.55}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0.1;zoffset=0;yoffset=0.50}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0.15;zoffset=0;yoffset=0.45}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0.2;zoffset=0;yoffset=0.40}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0.15;zoffset=0;yoffset=0.35}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0.1;zoffset=0;yoffset=0.30}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0.05;zoffset=0;yoffset=0.25}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=0;zoffset=0;yoffset=0.2}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=-0;zoffset=0;yoffset=0.6}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=-0.05;zoffset=0;yoffset=0.55}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=-0.1;zoffset=0;yoffset=0.50}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=-0.15;zoffset=0;yoffset=0.45}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=-0.2;zoffset=0;yoffset=0.40}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=-0.15;zoffset=0;yoffset=0.35}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=-0.1;zoffset=0;yoffset=0.30}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=-0.05;zoffset=0;yoffset=0.25}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.25;vd=2;a=1} @Origin{xoffset=-0;zoffset=0;yoffset=0.2}
+MMC_Florentino_xSkill_xMobsSkill:
+  TargetConditions:
+  - owner{} true
+  Skills:
+  - sound{s=item.trident.return;p=0.7}
+  - skill{s=MMC_Florentino_xSkill_xAura}
+  - remove @self
+MMC_FlorentinoX_Attack:
+  Conditions:
+  - hasaura{n=MMC_FlorentinoX} true
+  - hasaura MMC_FlorentinoX_Gentleman orElseCast MMC_FlorentinoX_AttackNoGL
+  Skills:
+  - skill{s=MMC_FlorentinoX_Attack_Randoms} @Origin{xoffset=0;zoffset=0;yoffset=-2}
+  - delay 4
+  - projectile{onTick=;onHit=MMC_FlorentinoX_Attack_Hitx;hs=true;hnp=true;hfs=1;v=20;i=1;mr=3;hR=1.2;sE=false;sB=true;sso=0.1;syo=1} @TargetLocation
+  - lunge{v=1.5;vy=0.1} @self
+  - auraremove{aura=MMC_FlorentinoX} @self
+  - potion{t=SPEED;d=20;l=5;force=true;p=false;i=false} @self
+MMC_FlorentinoX_AttackNoGL:
+  Skills:
+  - skill{s=MMC_FlorentinoX_Attack_Randoms} @Origin{xoffset=0;zoffset=0;yoffset=-2}
+  - delay 4
+  - projectile{onTick=;onHit=MMC_FlorentinoX_Attack_Hit;hs=true;hnp=true;hfs=1;v=20;i=1;mr=3;hR=1.2;sE=false;sB=true;sso=0.1;syo=1} @TargetLocation
+  - setNoDamageTicks{ticks=10;delay=1} @self
+  - lunge{v=1.5;vy=0.1} @self
+  - auraremove{aura=MMC_FlorentinoX} @self
+  - potion{t=SPEED;d=20;l=5;force=true;p=false;i=false} @self
+MMC_FlorentinoX_Attack_Hit:
+  Skills:
+  - delay 5
+  - damage{a=7}
+MMC_FlorentinoX_Attack_Hitx:
+  Skills:
+  - delay 5
+  - damage{a=7}
+  - damagepercent{percent=0.05;ia=true}
+MMC_Florentino_xSkill_Gentleman:
+  Skills:
+  - setNoDamageTicks{ticks=15;delay=1} @self
+  - sound{s=entity.mooshroom.convert} @self
+  - setvariable{var=skill.FlorentinoX;t=INTEGER;value=0}
+  - projectile{onTick=;onHit=MMC_Florentino_xSkill_Gentleman_Hit;hs=true;hnp=true;hfs=1;v=20;i=1;mr=6;hR=0.75;sE=true;sB=true;sso=0.1;syo=1} @TargetLocation
+  - lunge{v=2;vy=0.1} @self
+MMC_Florentino_xSkill_Gentleman_Hit:
+  Conditions:
+  - varEquals{var=skill.FlorentinoX;value=0}
+  Skills:
+  - variableadd{var=skill.FlorentinoX;amount=1}
+  - stun{d=20;f=true;ai=true}
+  - skill{s=MMC_Florentino_xSkill_xAura} @self
+  - summon{t=MMC_Florentino_Mobs;a=1;sio=true;sip=true} @Origin{xoffset=1.55;zoffset=-2.65;yoffset=-4}
+  - summon{t=MMC_Florentino_Mobs;a=1;sio=true;sip=true} @Origin{xoffset=1.55;zoffset=2.65;yoffset=-4}
+  - summon{t=MMC_Florentino_Mobs;a=1;sio=true;sip=true} @Origin{xoffset=-3;zoffset=0;yoffset=-4}
+  - setNoDamageTicks{ticks=100;delay=1} @self
+  - skill{s=MMC_FlorentinoX_Start_Aura_Gentleman_X} @self
+  - Aura{auraName=MMC_FlorentinoX_Gentleman;interval=1;duration=100} @self
+  - potion{t=glowing;d=100;l=5;force=true;p=false;i=false} @self
+
+MMC_FlorentinoX_Attack_Randoms:
+  Skills:
+  - randomskill{skills=MMC_FlorentinoX_Attack_Randoms_Attack_1,MMC_FlorentinoX_Attack_Randoms_Attack_2}
+MMC_FlorentinoX_Attack_Randoms_Attack_1:
+  Skills:
+  - skill{s=MMC_FlorentinoX_Attack_xSkill_R1} @self
+MMC_FlorentinoX_Attack_xSkill_R1:
+  Skills:
+  - sound{s=item.trident.riptide_1;p=0.7} @self
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.05;sso=0.0;syo=1.600}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.1;sso=0.1;syo=1.591}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.15;sso=0.2;syo=1.565}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.2;sso=0.3;syo=1.519}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.25;sso=0.4;syo=1.447}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.3;sso=0.447;syo=1.4}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.35;sso=0.519;syo=1.3}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.4;sso=0.565;syo=1.2}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.45;sso=0.591;syo=1.1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.5;sso=0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.55;sso=0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.6;sso=0.591;syo=0.9}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.65;sso=0.565;syo=0.8}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.7;sso=0.519;syo=0.7}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.75;sso=0.447;syo=0.6}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.8;sso=0.4;syo=0.553}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.85;sso=0.3;syo=0.481}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.9;sso=0.2;syo=0.435}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.95;sso=0.1;syo=0.409}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1;sso=0.0;syo=0.400}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.05;sso=0.0;syo=1.600}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.10;sso=-0.1;syo=1.591}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.15;sso=-0.2;syo=1.565}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.20;sso=-0.3;syo=1.519}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.25;sso=-0.4;syo=1.447}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.30;sso=-0.447;syo=1.4}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.35;sso=-0.519;syo=1.3}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.40;sso=-0.565;syo=1.2}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.45;sso=-0.591;syo=1.1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.50;sso=-0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.55;sso=-0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.60;sso=-0.591;syo=0.9}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.65;sso=-0.565;syo=0.8}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.70;sso=-0.519;syo=0.7}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.75;sso=-0.447;syo=0.6}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.80;sso=-0.4;syo=0.553}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.85;sso=-0.3;syo=0.481}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.90;sso=-0.2;syo=0.435}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.95;sso=-0.1;syo=0.409}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.00;sso=0.0;syo=0.400}
+  - delay 1
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.05;sso=0.0;syo=0.400}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.1;sso=-0.1;syo=0.409}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.15;sso=-0.2;syo=0.435}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.2;sso=-0.3;syo=0.481}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.25;sso=-0.4;syo=0.553}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.3;sso=-0.447;syo=0.6}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.35;sso=-0.519;syo=0.7}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.4;sso=-0.565;syo=0.8}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.45;sso=-0.591;syo=0.9}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.5;sso=-0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.55;sso=-0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.6;sso=-0.591;syo=1.1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.65;sso=-0.565;syo=1.2}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.7;sso=-0.519;syo=1.3}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.75;sso=-0.447;syo=1.4}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.8;sso=-0.4;syo=1.447}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.85;sso=-0.3;syo=1.519}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.9;sso=-0.2;syo=1.565}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.95;sso=-0.1;syo=1.591}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2;sso=0.0;syo=1.600}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.05;sso=0.0;syo=0.400}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.10;sso=0.1;syo=0.409}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.15;sso=0.2;syo=0.435}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.20;sso=0.3;syo=0.481}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.25;sso=0.4;syo=0.553}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.30;sso=0.447;syo=0.6}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.35;sso=0.519;syo=0.7}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.40;sso=0.565;syo=0.8}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.45;sso=0.591;syo=0.9}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.50;sso=0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.55;sso=0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.60;sso=0.591;syo=1.1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.65;sso=0.565;syo=1.2}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.70;sso=0.519;syo=1.3}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.75;sso=0.447;syo=1.4}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.80;sso=0.4;syo=1.447}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.85;sso=0.3;syo=1.519}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.90;sso=0.2;syo=1.565}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.95;sso=0.1;syo=1.591}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.00;sso=0.0;syo=1.600}
+
+  - delay 1
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.05;sso=0.0;syo=1.600}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.1;sso=0.1;syo=1.591}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.15;sso=0.2;syo=1.565}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.2;sso=0.3;syo=1.519}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.25;sso=0.4;syo=1.447}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.3;sso=0.447;syo=1.4}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.35;sso=0.519;syo=1.3}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.4;sso=0.565;syo=1.2}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.45;sso=0.591;syo=1.1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.5;sso=0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.55;sso=0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.6;sso=0.591;syo=0.9}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.65;sso=0.565;syo=0.8}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.7;sso=0.519;syo=0.7}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.75;sso=0.447;syo=0.6}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.8;sso=0.4;syo=0.553}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.85;sso=0.3;syo=0.481}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.9;sso=0.2;syo=0.435}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.95;sso=0.1;syo=0.409}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3;sso=0.0;syo=0.400}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.05;sso=0.0;syo=1.600}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.10;sso=-0.1;syo=1.591}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.15;sso=-0.2;syo=1.565}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.20;sso=-0.3;syo=1.519}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.25;sso=-0.4;syo=1.447}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.30;sso=-0.447;syo=1.4}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.35;sso=-0.519;syo=1.3}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.40;sso=-0.565;syo=1.2}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.45;sso=-0.591;syo=1.1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.50;sso=-0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.55;sso=-0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.60;sso=-0.591;syo=0.9}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.65;sso=-0.565;syo=0.8}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.70;sso=-0.519;syo=0.7}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.75;sso=-0.447;syo=0.6}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.80;sso=-0.4;syo=0.553}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.85;sso=-0.3;syo=0.481}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.90;sso=-0.2;syo=0.435}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.95;sso=-0.1;syo=0.409}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.00;sso=0.0;syo=0.400}
+  - delay 1
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.05;sso=0.0;syo=0.400}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.1;sso=-0.1;syo=0.409}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.15;sso=-0.2;syo=0.435}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.2;sso=-0.3;syo=0.481}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.25;sso=-0.4;syo=0.553}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.3;sso=-0.447;syo=0.6}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.35;sso=-0.519;syo=0.7}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.4;sso=-0.565;syo=0.8}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.45;sso=-0.591;syo=0.9}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.5;sso=-0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.55;sso=-0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.6;sso=-0.591;syo=1.1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.65;sso=-0.565;syo=1.2}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.7;sso=-0.519;syo=1.3}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.75;sso=-0.447;syo=1.4}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.8;sso=-0.4;syo=1.447}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.85;sso=-0.3;syo=1.519}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.9;sso=-0.2;syo=1.565}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.95;sso=-0.1;syo=1.591}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=4;sso=0.0;syo=1.600}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.05;sso=0.0;syo=0.400}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.10;sso=0.1;syo=0.409}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.15;sso=0.2;syo=0.435}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.20;sso=0.3;syo=0.481}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.25;sso=0.4;syo=0.553}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.30;sso=0.447;syo=0.6}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.35;sso=0.519;syo=0.7}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.40;sso=0.565;syo=0.8}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.45;sso=0.591;syo=0.9}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.50;sso=0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.55;sso=0.600;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.60;sso=0.591;syo=1.1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.65;sso=0.565;syo=1.2}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.70;sso=0.519;syo=1.3}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.75;sso=0.447;syo=1.4}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.80;sso=0.4;syo=1.447}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.85;sso=0.3;syo=1.519}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.90;sso=0.2;syo=1.565}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.95;sso=0.1;syo=1.591}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_1;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=4.00;sso=0.0;syo=1.600}
+MMC_FlorentinoX_Attack_xSkill_R1_Tick_1:
+  Skills:
+  - effect:particles{p=reddust;color=#EC0303;Size=0.3;vd=2;a=1}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.5;vd=2;a=2}
+MMC_FlorentinoX_Attack_Randoms_Attack_2:
+  Skills:
+  - skill{s=MMC_FlorentinoX_Attack_xSkill_R2} @self
+MMC_FlorentinoX_Attack_xSkill_R2:
+  Skills:
+  - sound{s=entity.phantom.ambient} @self
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.2;sso=0.380;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.4;sso=0.36;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.6;sso=0.340;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.8;sso=0.32;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1;sso=0.300;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.2;sso=0.28;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.4;sso=0.260;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.6;sso=0.24;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.8;sso=0.220;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2;sso=0.20;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.2;sso=0.180;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.4;sso=0.16;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.6;sso=0.140;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.8;sso=0.12;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3;sso=0.100;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.2;sso=0.08;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.4;sso=0.060;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.6;sso=0.04;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.8;sso=0.020;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=4.0;sso=0.0;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.2;sso=-0.380;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.4;sso=-0.36;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.6;sso=-0.340;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.8;sso=-0.32;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1;sso=-0.300;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.2;sso=-0.28;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.4;sso=-0.260;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.6;sso=-0.24;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.8;sso=-0.220;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2;sso=-0.20;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.2;sso=-0.180;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.4;sso=-0.16;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.6;sso=-0.140;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.8;sso=-0.12;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3;sso=-0.100;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.2;sso=-0.08;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.4;sso=-0.060;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.6;sso=-0.04;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.8;sso=-0.020;syo=1}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=4.0;sso=0.0;syo=1}
+  - delay 1
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.2;sso=0.0;syo=1.380}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.4;sso=0.0;syo=1.36}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.6;sso=0.0;syo=1.340}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.8;sso=0.0;syo=1.32}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1;sso=0.0;syo=1.300}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.2;sso=0.0;syo=1.28}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.4;sso=0.0;syo=1.260}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.6;sso=0.0;syo=1.24}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.8;sso=0.0;syo=1.220}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2;sso=0.0;syo=1.20}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.2;sso=0.0;syo=1.180}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.4;sso=0.0;syo=1.16}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.6;sso=0.0;syo=1.140}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.8;sso=0.0;syo=1.12}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3;sso=0.0;syo=1.100}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.2;sso=0.0;syo=1.08}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.4;sso=0.0;syo=1.060}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.6;sso=0.0;syo=1.04}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.8;sso=0.0;syo=1.020}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=4.0;sso=0.0;syo=1.0}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.2;sso=0.0;syo=0.620}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.4;sso=0.0;syo=0.64}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.6;sso=0.0;syo=0.660}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=0.8;sso=0.0;syo=0.68}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1;sso=0.0;syo=0.700}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.2;sso=0.0;syo=0.72}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.4;sso=0.0;syo=0.740}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.6;sso=0.0;syo=0.76}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=1.8;sso=0.0;syo=0.780}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2;sso=0.0;syo=0.80}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.2;sso=0.0;syo=0.820}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.4;sso=0.0;syo=0.84}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.6;sso=0.0;syo=0.860}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=2.8;sso=0.0;syo=0.88}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3;sso=0.0;syo=0.900}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.2;sso=0.0;syo=0.92}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.4;sso=0.0;syo=0.940}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.6;sso=0.0;syo=0.96}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=3.8;sso=0.0;syo=0.980}
+  - projectile{oT=MMC_FlorentinoX_Attack_xSkill_R1_Tick_2;i=1;d=5;sB=false;sE=false;mr=1;v=0;vR=1;hR=1;sfo=4;sso=0.0;syo=1.0}
+
+MMC_FlorentinoX_Attack_xSkill_R1_Tick_2:
+  Skills:
+  - effect:particles{p=reddust;color=#EC0303;Size=0.3;vd=2;a=1}
+  - effect:particles{p=reddust;color=#FF00FF;Size=0.5;vd=2;a=2}
+  
+
+MMC_FlorentinoX_Start_Aura_Gentleman_X:
+  Skills:
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X1;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_1;interval=1;duration=3}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X2;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_2;interval=1;duration=5}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X3;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_3;interval=1;duration=8}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X4;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_4;interval=1;duration=10}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X5;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_5;interval=1;duration=13}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X6;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_6;interval=1;duration=15}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X7;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_7;interval=1;duration=18}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X8;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_8;interval=1;duration=20}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X9;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_9;interval=1;duration=23}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X10;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_10;interval=1;duration=25}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X11;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_11;interval=1;duration=28}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X12;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_12;interval=1;duration=30}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X13;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_13;interval=1;duration=33}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X14;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_14;interval=1;duration=35}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X15;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_15;interval=1;duration=38}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X16;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_16;interval=1;duration=40}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X17;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_17;interval=1;duration=43}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X18;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_18;interval=1;duration=45}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X19;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_19;interval=1;duration=48}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X20;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_20;interval=1;duration=50}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X21;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_21;interval=1;duration=53}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X22;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_22;interval=1;duration=55}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X23;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_23;interval=1;duration=58}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X24;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_24;interval=1;duration=60}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X25;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_25;interval=1;duration=63}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X26;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_26;interval=1;duration=65}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X27;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_27;interval=1;duration=68}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X28;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_28;interval=1;duration=70}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X29;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_29;interval=1;duration=73}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X30;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_30;interval=1;duration=75}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X31;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_31;interval=1;duration=78}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X32;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_32;interval=1;duration=80}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X33;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_33;interval=1;duration=83}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X34;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_34;interval=1;duration=85}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X35;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_35;interval=1;duration=88}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X36;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_36;interval=1;duration=90}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X37;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_37;interval=1;duration=93}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X38;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_38;interval=1;duration=95}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X39;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_39;interval=1;duration=98}
+  - Aura{auraName=MMC_FlorentinoX_Start_Aura_Gentleman_X40;onTick=MMC_FlorentinoX_Start_Aura_Gentleman_40;interval=1;duration=100}
+
+MMC_FlorentinoX_Start_Aura_Gentleman_1:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.0;zoffset=0.600;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_2:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.1;zoffset=0.591;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_3:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.2;zoffset=0.565;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_4:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.3;zoffset=0.519;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_5:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.4;zoffset=0.447;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_6:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.447;zoffset=0.4;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_7:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.519;zoffset=0.3;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_8:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.565;zoffset=0.2;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_9:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.591;zoffset=0.1;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_10:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.600;zoffset=0.0;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_11:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.600;zoffset=-0.0;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_12:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.591;zoffset=-0.1;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_13:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.565;zoffset=-0.2;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_14:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.519;zoffset=-0.3;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_15:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.447;zoffset=-0.4;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_16:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.4;zoffset=-0.447;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_17:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.3;zoffset=-0.519;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_18:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.2;zoffset=-0.565;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_19:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.1;zoffset=-0.591;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_20:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=0.0;zoffset=-0.600;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_21:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.0;zoffset=-0.600;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_22:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.1;zoffset=-0.591;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_23:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.2;zoffset=-0.565;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_24:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.3;zoffset=-0.519;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_25:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.4;zoffset=-0.447;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_26:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.447;zoffset=-0.4;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_27:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.519;zoffset=-0.3;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_28:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.565;zoffset=-0.2;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_29:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.591;zoffset=-0.1;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_30:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.600;zoffset=-0.0;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_31:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.600;zoffset=0.0;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_32:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.591;zoffset=0.1;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_33:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.565;zoffset=0.2;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_34:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.519;zoffset=0.3;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_35:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.447;zoffset=0.4;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_36:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.4;zoffset=0.447;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_37:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.3;zoffset=0.519;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_38:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.2;zoffset=0.565;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_39:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.1;zoffset=0.591;yoffset=0}
+MMC_FlorentinoX_Start_Aura_Gentleman_40:
+  Skills:
+  - effect:particles{p=reddust;c=#0FCFFE;a=1;size=0.45} @Origin{xoffset=-0.0;zoffset=0.600;yoffset=0}

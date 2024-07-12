@@ -1,0 +1,32 @@
+2024 14-06 at 01:31:48 PM (Fri): |
+  Invalid Configuration! File: /shops/null Cause: while scanning a simple key
+   in 'string', line 14, column 5:
+          -spawn
+          ^
+  could not find expected ':'
+   in 'string', line 15, column 5:
+          PriceType: NOTHING
+          ^
+2024 14-06 at 01:32:01 PM (Fri): |
+  Invalid Configuration! File: /shops/null Cause: while scanning a simple key
+   in 'string', line 14, column 5:
+          -warp spawn
+          ^
+  could not find expected ':'
+   in 'string', line 15, column 5:
+          PriceType: NOTHING
+          ^
+2024 16-06 at 12:18:54 PM (Sun): 'Was not able to create ShopItem command_day! The
+  price object needs to be a valid number. Example: ''7'' or ''12''.'
+2024 16-06 at 12:29:45 PM (Sun): 'Was not able to create ShopItem command_day! The
+  price object needs to be a valid number. Example: ''7'' or ''12''.'
+2024 16-06 at 12:34:23 PM (Sun): 'Was not able to create ShopItem command_day! The
+  price object needs to be a valid number. Example: ''7'' or ''12''.'
+2024 16-06 at 12:34:47 PM (Sun): 'Was not able to create ShopItem command_day! The
+  price object needs to be a valid number. Example: ''7'' or ''12''.'
+2024 16-06 at 12:36:21 PM (Sun): 'Was not able to create ShopItem command_day! The
+  price object needs to be a valid number. Example: ''7'' or ''12''.'
+2024 16-06 at 12:37:02 PM (Sun): 'Was not able to create ShopItem command_day! The
+  price object needs to be a valid number. Example: ''7'' or ''12''.'
+2024 19-06 at 07:49:08 PM (Wed): 'Was not able to create ShopItem command_day! The
+  price object needs to be a valid number. Example: ''7'' or ''12''.'

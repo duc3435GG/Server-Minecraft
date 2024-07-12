@@ -1,0 +1,228 @@
+ShopName: Commands
+DisplayName: '&2&lCommands'
+signs:
+  text: '[Commands]'
+  NeedPermissionToCreateSign: true
+shop:
+  warp_spawn:
+    MenuItem:
+    - name:&f&l&nWarp:&0 &2&lSpawn
+    - amount:1
+    - type:COMPASS
+    RewardType: CONSOLE
+    Reward:
+    - warp spawn
+    PriceType: POINTS
+    Price: 10000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  warp_pvp:
+    MenuItem:
+    - name:&f&l&nWarp:&0 &2&lPvP
+    - amount:1
+    - type:DIAMOND_SWORD
+    - enchantment:DAMAGE_ALL#5
+    - itemflag:all
+    RewardType: CONSOLE
+    Reward:
+    - warp pvp
+    PriceType: POINTS
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  command_day:
+    MenuItem:
+    - lore:&cThis item is visible at night only.
+    - name:&f&l&nCommand:&0 &2&lDay
+    - amount:1
+    - type:TORCH
+    RewardType: CONSOLE
+    Reward:
+    - time day %world%
+    PriceType: POINTS
+    Price: 10000
+    Message: '&8Set time to day.'
+    ExtraPermission: ''
+    InventoryLocation: 3
+    Condition:
+    - type:worldtime
+    - between:11615:24000
+  command_night:
+    MenuItem:
+    - lore:&cThis item is visible at day only.
+    - name:&f&l&nCommand:&0 &2&lNight
+    - amount:1
+    - type:NETHERRACK
+    RewardType: CONSOLE
+    Reward:
+    - time night %world%
+    PriceType: POINTS
+    Price: 10000
+    Message: '&8Set time to night.'
+    ExtraPermission: ''
+    InventoryLocation: 3
+    Condition:
+    - type:worldtime
+    - between:0:11615
+  command_fly:
+    MenuItem:
+    - lore:&c Cần 99.999.999.999.999.999 point .
+    - name:&f&l&nCommand:&0 &2&lFly
+    - amount:1
+    - type:FEATHER
+    RewardType: CONSOLE
+    Reward:
+    - fly
+    PriceType: POINTS
+    Price: 99999999999999999
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  command_feed:
+    MenuItem:
+    - 'lore:&cThis example CONSOLE can not be executed in the "survival" world.'
+    - name:&f&l&nCommand:&0 &2&lFeed
+    - amount:1
+    - type:GRILLED_PORK
+    RewardType: CONSOLE
+    Reward:
+    - feed %player%
+    PriceType: POINTS
+    Price: 1000
+    Message: '&6Enjoy your meal!'
+    ExtraPermission: ''
+    InventoryLocation: 5
+    Condition:
+    - type:world
+    - dontmatch:survival
+  command_feed_blocked:
+    MenuItem:
+    - 'lore:&cThis example CONSOLE can not be executed in the "survival" world.'
+    - name:&f&l&nCommand:&0 &2&lFeed
+    - amount:1
+    - type:PORK
+    RewardType: POINTS
+    PriceType: POINTS
+    Price: 10000
+    Message: '&cCan not be executed in the survival world.'
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Back:
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    RewardType: SHOP
+    Reward: menu
+    PriceType: NOTHING
+    Message: '&6Leaving the ItemShop...'
+    ExtraPermission: ''
+    InventoryLocation: 27
+  nangcapsacben:
+    MenuItem:
+    - name:&4 Sắc bén 10
+    - amount:1
+    - type:ENCHANTED_BOOK
+    - lore:Cầm thanh kiếm trên tay
+    - lore:Cần 10000 POINT
+    RewardType: CONSOLE
+    Reward:
+    - ce add DAMAGE_ALL 10
+    - lp user %player% permission set ncsb
+    PriceType: POINTS
+    Price: 10000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  nangcapsacben1:
+    MenuItem:
+    - name:&4 Sắc bén 20
+    - amount:1
+    - type:ENCHANTED_BOOK
+    - lore:Cầm thanh kiếm trên tay
+    - lore:Cần 50000 POINT
+    RewardType: CONSOLE
+    Reward:
+    - ce add DAMAGE_ALL 20
+    - lp user %player% permission set ncsb1
+    PriceType: POINTS
+    Price: 50000
+    Message: ''
+    ExtraPermission: 'ncsb'
+    InventoryLocation: 12
+  nangcapsacben2:
+    MenuItem:
+    - name:&4 Sắc bén 50
+    - amount:1
+    - type:ENCHANTED_BOOK
+    - lore:Cầm thanh kiếm trên tay
+    - lore:Cần 100000 POINT
+    RewardType: CONSOLE
+    Reward:
+    - ce add DAMAGE_ALL 50
+    - lp user %player% permission set ncsb2
+    PriceType: POINTS
+    Price: 100000
+    Message: ''
+    ExtraPermission: 'ncsb1'
+    InventoryLocation: 14
+  nangcapsacben3:
+    MenuItem:
+    - name:&4 Sắc bén 75
+    - amount:1
+    - type:ENCHANTED_BOOK
+    - lore:Cầm thanh kiếm trên tay
+    - lore:Cần 1000000 POINT
+    RewardType: CONSOLE
+    Reward:
+    - ce add DAMAGE_ALL 75
+    - lp user %player% permission set ncsb3
+    PriceType: POINTS
+    Price: 1000000
+    Message: ''
+    ExtraPermission: 'ncsb2'
+    InventoryLocation: 16
+  nangcapsacben4:
+    MenuItem:
+    - name:&4 Sắc bén 100
+    - amount:1
+    - type:ENCHANTED_BOOK
+    - lore:Cầm thanh kiếm trên tay
+    - lore:Cần 9999999 POINT
+    RewardType: CONSOLE
+    Reward:
+    - ce add DAMAGE_ALL 100
+    PriceType: POINTS
+    Price: 9999999
+    Message: ''
+    ExtraPermission: 'ncsb3'
+    InventoryLocation: 18
+  command_day:
+    MenuItem:
+    - lore:&cThis item is visible at night only.
+    - name:&f&l&nCommand:&0 &2&lsun
+    - amount:1
+    - type:BEDROCK
+    RewardType: CONSOLE
+    Reward:
+    - sun
+    PriceType: POINTS
+    Message: '&8Sun'
+    ExtraPermission: ''
+    InventoryLocation: 6
+  fix:
+    MenuItem:
+    - 'lore:&cFix đồ trên tay'
+    - name:&f&l&nCommand:&0 &2&lFix
+    - amount:1
+    - type:GOLD_BLOCK
+    RewardType: CONSOLE
+    Reward:
+    - fix %player_name%
+    PriceType: POINTS
+    Price: 1
+    Message: '&6Enjoy your meal!'
+    ExtraPermission: ''
+    InventoryLocation: 7

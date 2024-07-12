@@ -1,0 +1,68 @@
+vault4:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":13,"type":"DIAMOND_HELMET","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"PROTECTION_ENVIRONMENTAL":32767,"PROTECTION_FIRE":32767,"PROTECTION_PROJECTILE":32767,"PROTECTION_EXPLOSIONS":32767},"internal":"H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy45dbAp843I4t0sDJwgIZ\/UxOKS3Odzk4wuPzrLxsDmmJtfmlfi0O\/AAAIcDCzBOfklDCweqYkpHAy8cOP9EnNTGQTTU\/NSizKT9XITK4AKckoymBk4\/QtSixJLMvPzoPpxqGQg2UmRDEQ4SRpmUXZefnJ2UmJydlBqcWZxSWJecioux+HTw8AAAJYS73tYAQAA","lore":["§6A
+    kingly crowl that grants","§6the wearer unwavering power!"],"display-name":"§dCrown
+    of the King","ItemFlags":["HIDE_ENCHANTS","HIDE_ATTRIBUTES"]}}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","type":"DIAMOND_PICKAXE","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":3,"DIG_SPEED":5,"LOOT_BONUS_BLOCKS":3},"internal":"H4sIAAAAAAAAAF2MsQ7CMAxED6WVChsSCwMfwczHIJNailU3rhJXwN83Xbud7t69CxBwI35zjomyz5z9lag6oy0BfVXzuucB12T6\/yZxrrGYKo\/ovKwccD8I+Ldwkdbslm7A+aMWJy804fQMeBzweVWXRSWSi+V26bEBTnfAo5gAAAA=","lore":["§7Experience
+    IV","§dMultiplication V","§dHaste III","§7AutoSmelt X","§7Haste V","§6§oA legendary
+    tool forged by","§6§othe god of builders.","§f§lPROTECTED","§e§l*§f§lHOLY§e§l*
+    §f§lPROTECTED","§eBlockTrak Blocks Broken: §61"],"display-name":"§6§lHeroic Pickaxe
+    of Hephaestus"}}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","type":"ELYTRA","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","internal":"H4sIAAAAAAAAAF3LQQqAIBBG4Z9MiHbRprt0mBAdspgUnJHo9uW23YPHNwIGVjirAOgMZkcbJR9d0ouSrqVKbGfAFDM\/dzyUxJfMTAG9lkoGy8+cNezU6oMWL4UzRN5jAAAA","lore":["§6Judgement
+    V","§dRush II","§f§lPROTECTED","§e§l*§f§lHOLY§e§l* §f§lPROTECTED"]}}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":55,"type":"EMPTY_MAP","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§fPrevents
+    an item from being destroyed","§fdue to a failed Enchantment Book.","§ePlace scroll
+    on item to apply."],"display-name":"§fWhite Scroll"}}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":56,"type":"PAPER","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","internal":"H4sIAAAAAAAAAONiYOBg4M\/Iz6ksz8gsSS1OLsrPyWFgKSkqTWUAABpzf3gcAAAA","lore":["§eA
+    legendary reward that can","§ebe applied to armor\/weapons,","§egives a 100% chance
+    of not losing","§ethe blessed item on death."],"display-name":"§6§lHoly White
+    Scroll"}}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","damage":15,"type":"DIAMOND_HELMET","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"PROTECTION_ENVIRONMENTAL":32767,"PROTECTION_FIRE":32767,"PROTECTION_PROJECTILE":32767,"PROTECTION_EXPLOSIONS":32767},"internal":"H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy45dbAp843I4t0sDJwgIZ\/UxOKS3Odzk4wuPzrLxsDmmJtfmlfi0O\/AAAIcDCzBOfklDCweqYkpHAy8cOP9EnNTGQTTU\/NSizKT9XITK4AKckoymBk4\/QtSixJLMvPzoPpxqGQg2UmRDEQ4SRpmUXZefnJ2UmJydlBqcWZxSWJecioux+HTw8AAAJYS73tYAQAA","lore":["§6A
+    kingly crowl that grants","§6the wearer unwavering power!"],"display-name":"§dCrown
+    of the King","ItemFlags":["HIDE_ENCHANTS","HIDE_ATTRIBUTES"]}}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"type":"DIAMOND_HELMET","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"PROTECTION_ENVIRONMENTAL":32767,"PROTECTION_FIRE":32767,"PROTECTION_PROJECTILE":32767,"PROTECTION_EXPLOSIONS":32767},"internal":"H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy45dbAp843I4t0sDJwgIZ\/UxOKS3Odzk4wuPzrLxsDmmJtfmlfiEMkABhwMLME5+SUMLB6piSkcDLxw4\/0Sc1MZBNNT81KLMpP1chMrgApySjKYGTj9C1KLEksy8\/Og+nGoZCDZSf0ORDhJGmZRdl5+cnZSYnJ2UGpxZnFJYl5yKi7H4dPDwAAA1pMV3lgBAAA=","lore":["§6A
+    kingly crowl that grants","§6the wearer unwavering power!"],"display-name":"§dCrown
+    of the King","ItemFlags":["HIDE_ENCHANTS"]}}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":37,"type":"MONSTER_EGG","meta":{"==":"ItemMeta","meta-type":"SPAWN_EGG","enchants":{"DURABILITY":10},"lore":["§8§oA
+    Mythical Egg that can","§8§obe used to resurrect a","§8§oSkeletalKnight"],"display-name":"§fSpawn
+    §aSkeletal Knight"}}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","damage":36,"type":"BOW","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"ARROW_KNOCKBACK":2,"DURABILITY":3,"ARROW_DAMAGE":100,"ARROW_INFINITE":1},"internal":"H4sIAAAAAAAAAGWQwQ6CMBBEB4qh8Wai0c\/wavwYU3FjG0tLdhfUvxfkBueZeTOZLWCwkZhVANQGe0c3So13SVtKepXkmEapsqjbfFd2LxQXi53P8fv2QUkazjHSA5VyTwaHFSF0xCOitLCiTmfG2eC0cNKni1nCMPWVa5Djxv9BxXrmELiXOXZc9ud+nCcyB5dqF4ibkJ6YjvgBwpxDFA4BAAA=","lore":["§aSoulless
+    I","§aVirus II","§aExplosive II","§bSnare IV","§ePiercing III","§eArcher I","§eSniper
+    II","§7MultiArrow V","§7Piercing 14","§6§oWhen you get your target within","§6§oyour
+    sights, their journey ends.","§e§l*§f§lHOLY§e§l* §f§lPROTECTED","§f§lPROTECTED","§eStatTrak
+    Kills: §60","§3MobTrak Kills: §f9"],"display-name":"§6§lHeroic Crystal Bow of
+    Athena"}}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","type":"SULPHUR","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","ItemFlags":["HIDE_ATTRIBUTES","HIDE_POTION_EFFECTS"],"lore":["§7A
+    failed bi-product","§7of Magic dust."],"display-name":"§fMystery Dust"}}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","type":"ENCHANTED_BOOK","meta":{"==":"ItemMeta","meta-type":"ENCHANTED","internal":"H4sIAAAAAAAAAONiYOBgYEnKz89mkEhMjS9LzMlMsU4rSs2rqrQ2sjaxtDY1tGYAAH27pXYlAAAA","lore":["§a51%
+    Success Rate","§c49% Destroy Rate","§eChance for arrows to explode.","§7Crossbow
+    Enchantment","§7Drag n'' drop onto item to enchant"],"display-name":"§a§l§nFrenzy
+    II"}}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","type":"ENCHANTED_BOOK","meta":{"==":"ItemMeta","meta-type":"ENCHANTED","internal":"H4sIAAAAAAAAAONiYOBgYEnKz89mEE9MjS9LzMlMsU7OSMwvtja2tjC1NjS1ZgAARadtqSQAAAA=","lore":["§a15%
+    Success Rate","§c85% Destroy Rate","§eDeal weakness and wither effects.","§7Trident
+    Enchantment","§7Drag n'' drop onto item to enchant"],"display-name":"§6§l§nChaos
+    III"}}'
+  '14': '{"==":"org.bukkit.inventory.ItemStack","type":"DIAMOND_SWORD","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":300,"FIRE_ASPECT":2,"KNOCKBACK":5,"LOOT_BONUS_MOBS":30,"DAMAGE_ALL":200},"internal":"H4sIAAAAAAAAAF2OSwoCQQwFn\/aIjbhxoQheQtceRuJMcBr7I0lG8fZ2u5xdIEW92gAOR+Ib536kbImzXbVM8SEhD6hfh5XGYlrvzmM3lvj9jMFYeykx8oDOZGKPdSp3E3pieTk7HGbKN6VXEG5CD69G9mcXFT3N1ysYLJEaS+WXLaAGtYCtw35GD0FJUvPiBzWcrUvMAAAA","lore":["§bVampire
+    III","§dDisarm III","§dSpiritmaster II","§dSoulgrind III","§7Obliterate 67","§7Paralyze
+    65","§7Blindness II","§7LifeSteal 50","§7Confusion III","§b§lPROTECTED","§e§l*§f§lHOLY§e§l*
+    §f§lPROTECTED","§f§lPROTECTED","§3MobTrak Kills: §f10","§eStatTrak Kills: §60"],"display-name":"§4Titan
+    Sword"}}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","type":"DIAMOND_AXE","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":3,"FIRE_ASPECT":2,"DAMAGE_ALL":100,"DAMAGE_UNDEAD":5},"internal":"H4sIAAAAAAAAAF2OQQrCMBBFfxuL0Z0gKngL0YV4GEnr1JamiUymqLc3prvA7N6bebMGFKpgvQQAlcLO0J1c0xknIzm51cSBeIiwVDhm0HzIt+HVc5\/WS43l6GthM6A8XzU2nbffd9cLhYa9tfTAQngiDR3ESBKLk8I2j1qKakoecmQ4Tm9cxMX\/dT\/ZMKv7TGVqPT\/TIa2xqq1vhjl5wQ+zBJKX+AAAAA==","lore":["§dAxe
+    of Spirits II","§aBerserk II","§bReforged VIII","§eBleed II","§6Barbarian I","§7Blessed
+    V","§7Decapitation 96","§7Dizzy 40","§7BattleCry 94","§7Haste V","§6§oAn ancient
+    axe forged by dwarven gods.","§f§lPROTECTED","§e§l*§f§lHOLY§e§l* §f§lPROTECTED","§3MobTrak
+    Kills: §f49","§eStatTrak Kills: §62","§eBlockTrak Blocks Broken: §65"],"display-name":"§6§lAxe
+    of the Dwarvish Gods"}}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","damage":36,"type":"BOW","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"ARROW_KNOCKBACK":2,"DURABILITY":3,"ARROW_DAMAGE":100,"ARROW_INFINITE":1},"internal":"H4sIAAAAAAAAAGWQwQ6CMBBEB4qh8Wai0c\/wavwYU3FjG0tLdhfUvxfkBueZeTOZLWCwkZhVANQGe0c3So13SVtKepXkmEapsqjbfFd2LxQXi53P8fv2QUkazjHSA5VyTwaHFSF0xCOitLCiTmfG2eC0cNKni1nCMPWVa5Djxv9BxXrmELiXOXZc9ud+nCcyB5dqF4ibkJ6YjvgBwpxDFA4BAAA=","lore":["§aSoulless
+    I","§aVirus II","§aExplosive II","§bSnare IV","§ePiercing III","§eArcher I","§eSniper
+    II","§7MultiArrow V","§7Piercing 14","§6§oWhen you get your target within","§6§oyour
+    sights, their journey ends.","§e§l*§f§lHOLY§e§l* §f§lPROTECTED","§f§lPROTECTED","§eStatTrak
+    Kills: §60","§3MobTrak Kills: §f9"],"display-name":"§6§lHeroic Crystal Bow of
+    Athena"}}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"ARROW"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","amount":63,"type":"MONSTER_EGG","meta":{"==":"ItemMeta","meta-type":"SPAWN_EGG","enchants":{"DURABILITY":10},"lore":["§8§oA
+    Mythical Egg that can","§8§obe used to resurrect a","§8§oSkeletonKing"],"display-name":"§fSpawn
+    §6Skeleton King"}}'
+  '19': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"amount":50,"type":"GOLDEN_APPLE"}'
+  '20': '{"==":"org.bukkit.inventory.ItemStack","amount":11,"type":"ARROW"}'

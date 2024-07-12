@@ -1,0 +1,32 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+SmashAttack:
+  Cooldown: 10
+  Conditions:
+  - targetwithin 25
+  Skills:
+  - message{cooldown=3;m="<mob.name><&co> Dính 5000000 damage rồi"} @PlayersInRadius{r=40}
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - delay 5
+  - damage{amount=5000000;ignorearmor=true} @PlayersInRadius{r=5}
+  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
+  - effect:explosion @Self
+SummonSkeletons:
+  Cooldown: 20
+  Skills:
+  - message{m="<mob.name><&co> Đoàn xương của ta"} @PlayersInRadius{r=40}
+  - delay 2
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+  - delay 2
+  - summon{mob=SkeletalMinion;amount=5;noise=5} @Self
+  - delay 2
+  - summon{mob=SkeletalMinion;amount=7;noise=5} @Self
+AngrySludgePoison:
+  Cooldown: 5
+  Skills:
+  - potion{type=WITHER;lvl=10;duration=50} @PlayersInRadius{r=15}
+  - effect:particles{p=happyVillager;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5}
+    @Self

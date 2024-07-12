@@ -1,0 +1,68 @@
+vault1:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","ItemFlags":["HIDE_ATTRIBUTES"],"internal":"H4sIAAAAAAAAAG2NQWuDQBBG59CKCYQEb7n3qpg0mngIdGOWusTNyroSepJ13QQhrZAaevHH1yZgKXQuA983b94QwASLUkYEpmmONiQmguAUnJ8gFxFnh5aT10jkYUzCXVvKd3nS67njtqquz2X99bF+dlwTRv2TjufwKDhKIwOmfRyyfZpR3G0Wb9lh\/2LCbUyY9Dc3KdnCA2fhzoBxX3CcIMJ\/EesvIt4SDMO7AW1iPAALNc2lKq6NpnVZHSt9+fwfzbLO9yR9b75c+p4daL+wFzO5sKXrKVtpFfjKK2blKoBvWoF\/qy0BAAA=","lore":["§cConsumable","","§7■
+    Repair: §f3","§7■ §f3§7s Cooldown","","§2Right Click: Item Throw","§2Damage: 2","§2Cooldown:
+    3","","§7Use it to sharpen your weapons,","§7or §ndamage§7 your enemies.","","§8§lTRASH
+    ITEM"],"display-name":"§fRock"}}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":2,"type":"DIAMOND_BLOCK"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","ItemFlags":["HIDE_ATTRIBUTES"],"internal":"H4sIAAAAAAAAAG2NQWuDQBBG59CKCYQEb7n3qpg0mngIdGOWusTNyroSepJ13QQhrZAaevHH1yZgKXQuA983b94QwASLUkYEpmmONiQmguAUnJ8gFxFnh5aT10jkYUzCXVvKd3nS67njtqquz2X99bF+dlwTRv2TjufwKDhKIwOmfRyyfZpR3G0Wb9lh\/2LCbUyY9Dc3KdnCA2fhzoBxX3CcIMJ\/EesvIt4SDMO7AW1iPAALNc2lKq6NpnVZHSt9+fwfzbLO9yR9b75c+p4daL+wFzO5sKXrKVtpFfjKK2blKoBvWoF\/qy0BAAA=","lore":["§cConsumable","","§7■
+    Repair: §f3","§7■ §f3§7s Cooldown","","§2Right Click: Item Throw","§2Damage: 2","§2Cooldown:
+    3","","§7Use it to sharpen your weapons,","§7or §ndamage§7 your enemies.","","§8§lTRASH
+    ITEM"],"display-name":"§fRock"}}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","ItemFlags":["HIDE_ATTRIBUTES"],"internal":"H4sIAAAAAAAAAG2NQWuDQBBG59CKCYQEb7n3qpg0mngIdGOWusTNyroSepJ13QQhrZAaevHH1yZgKXQuA983b94QwASLUkYEpmmONiQmguAUnJ8gFxFnh5aT10jkYUzCXVvKd3nS67njtqquz2X99bF+dlwTRv2TjufwKDhKIwOmfRyyfZpR3G0Wb9lh\/2LCbUyY9Dc3KdnCA2fhzoBxX3CcIMJ\/EesvIt4SDMO7AW1iPAALNc2lKq6NpnVZHSt9+fwfzbLO9yR9b75c+p4daL+wFzO5sKXrKVtpFfjKK2blKoBvWoF\/qy0BAAA=","lore":["§cConsumable","","§7■
+    Repair: §f3","§7■ §f3§7s Cooldown","","§2Right Click: Item Throw","§2Damage: 2","§2Cooldown:
+    3","","§7Use it to sharpen your weapons,","§7or §ndamage§7 your enemies.","","§8§lTRASH
+    ITEM"],"display-name":"§fRock"}}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","ItemFlags":["HIDE_ATTRIBUTES"],"internal":"H4sIAAAAAAAAAG2NQWuDQBBG59CKCYQEb7n3qpg0mngIdGOWusTNyroSepJ13QQhrZAaevHH1yZgKXQuA983b94QwASLUkYEpmmONiQmguAUnJ8gFxFnh5aT10jkYUzCXVvKd3nS67njtqquz2X99bF+dlwTRv2TjufwKDhKIwOmfRyyfZpR3G0Wb9lh\/2LCbUyY9Dc3KdnCA2fhzoBxX3CcIMJ\/EesvIt4SDMO7AW1iPAALNc2lKq6NpnVZHSt9+fwfzbLO9yR9b75c+p4daL+wFzO5sKXrKVtpFfjKK2blKoBvWoF\/qy0BAAA=","lore":["§cConsumable","","§7■
+    Repair: §f3","§7■ §f3§7s Cooldown","","§2Right Click: Item Throw","§2Damage: 2","§2Cooldown:
+    3","","§7Use it to sharpen your weapons,","§7or §ndamage§7 your enemies.","","§8§lTRASH
+    ITEM"],"display-name":"§fRock"}}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","ItemFlags":["HIDE_ATTRIBUTES"],"internal":"H4sIAAAAAAAAAG2NQWuDQBBG59CKCYQEb7n3qpg0mngIdGOWusTNyroSepJ13QQhrZAaevHH1yZgKXQuA983b94QwASLUkYEpmmONiQmguAUnJ8gFxFnh5aT10jkYUzCXVvKd3nS67njtqquz2X99bF+dlwTRv2TjufwKDhKIwOmfRyyfZpR3G0Wb9lh\/2LCbUyY9Dc3KdnCA2fhzoBxX3CcIMJ\/EesvIt4SDMO7AW1iPAALNc2lKq6NpnVZHSt9+fwfzbLO9yR9b75c+p4daL+wFzO5sKXrKVtpFfjKK2blKoBvWoF\/qy0BAAA=","lore":["§cConsumable","","§7■
+    Repair: §f3","§7■ §f3§7s Cooldown","","§2Right Click: Item Throw","§2Damage: 2","§2Cooldown:
+    3","","§7Use it to sharpen your weapons,","§7or §ndamage§7 your enemies.","","§8§lTRASH
+    ITEM"],"display-name":"§fRock"}}'
+  '7': '{"type":"WOOD_AXE","==":"org.bukkit.inventory.ItemStack"}'
+  '8': '{"type":"GOLD_SWORD","==":"org.bukkit.inventory.ItemStack"}'
+  '10': '{"type":"SHIELD","==":"org.bukkit.inventory.ItemStack"}'
+  '11': '{"type":"ANVIL","==":"org.bukkit.inventory.ItemStack"}'
+vault2:
+  '0': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"COBBLESTONE"}'
+  '1': '{"==":"org.bukkit.inventory.ItemStack","amount":34,"type":"COBBLESTONE"}'
+  '2': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"GOLD_BLOCK"}'
+  '3': '{"==":"org.bukkit.inventory.ItemStack","damage":1,"type":"SKULL_ITEM"}'
+  '4': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"IRON_INGOT"}'
+  '5': '{"==":"org.bukkit.inventory.ItemStack","amount":7,"type":"GOLDEN_APPLE","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","lore":["§7I
+    am a yummy apple","§7Make sure to savor my flavor."],"display-name":"§dJuicy Golden
+    Apple"}}'
+  '6': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"IRON_BLOCK","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":1},"internal":"H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQTpW0ZMs0EzNLU91UY3NDXZNEg2Rdy+RUS920RFNjA+OklFTLJDMGACR6+d7PAAAA","Unbreakable":true,"lore":["§c§l§kKKK","","§l§kKKK"],"display-name":"§l§kKKK","ItemFlags":["HIDE_ENCHANTS","HIDE_ATTRIBUTES","HIDE_UNBREAKABLE"]}}'
+  '7': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"IRON_INGOT"}'
+  '8': '{"==":"org.bukkit.inventory.ItemStack","amount":16,"type":"IRON_BLOCK","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":1},"internal":"H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQTpW0ZMs0EzNLU91UY3NDXZNEg2Rdy+RUS920RFNjA+OklFTLJDMGACR6+d7PAAAA","Unbreakable":true,"lore":["§c§l§kKKK","","§l§kKKK"],"display-name":"§l§kKKK","ItemFlags":["HIDE_ENCHANTS","HIDE_ATTRIBUTES","HIDE_UNBREAKABLE"]}}'
+  '9': '{"==":"org.bukkit.inventory.ItemStack","amount":54,"type":"GOLD_BLOCK"}'
+  '10': '{"==":"org.bukkit.inventory.ItemStack","type":"STICK","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"KNOCKBACK":32767},"internal":"H4sIAAAAAAAAAHWPzUrDUBCFJ7QNaUWQipu6EMFtpD9pawWht8mlXpqfkqRUV+G2va1Bk5T0du8buPEFXPsSii\/iI7gSd5ooVGpxFgPDOXPmmwKACAeGYREXG46n2sQlKtI9x7VJD3vqOTJV3L54grRE2Fs5NUvrYs9GLjG77buTb12A0q9OHNTREwfuI2InJkGCnZWado9oICAB9jd2sJneTZMFEQ7\/nFQtS9esoZkkawPVJZbZCUr3D5+va3jIdZHa85w+xlr7w39L8SQorgO4l30MOWdo2Voeiojz2B8tOTOiiT\/1WbwopD9lQBoMiGZEC\/6+dfacgXw66owuuD97PM2BiIJoGfLui3ErQda5iThIAfXDKxpOJNhexZo0YLA7YyGL\/fEx5ZyOr505Y5Mk0pqzmHI\/Cn84s\/96N59IaeBoVKa1aqNVlquVk7qsTMpjuaXUKnKrWW8qjabCptU6fAER3zEp7QEAAA==","Unbreakable":true,"lore":["§cSword","","§7➸
+    Attack Speed: §f99999","§7■ Crit Strike Chance: §f+99%","§7■ Dodge Rating: §f+999%","§7■
+    Dodge Cooldown Reduction: §f+999999999999%"],"ItemFlags":["HIDE_ATTRIBUTES","HIDE_UNBREAKABLE"]}}'
+  '11': '{"==":"org.bukkit.inventory.ItemStack","amount":45,"type":"OBSIDIAN"}'
+  '12': '{"==":"org.bukkit.inventory.ItemStack","amount":36,"type":"COOKED_BEEF"}'
+  '13': '{"==":"org.bukkit.inventory.ItemStack","amount":35,"type":"ARROW"}'
+  '14': '{"==":"org.bukkit.inventory.ItemStack","damage":11,"type":"DIAMOND_SPADE","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":3,"DIG_SPEED":5,"LOOT_BONUS_BLOCKS":3},"internal":"H4sIAAAAAAAAAONiYGBmEElMjU\/NS85IzCvJTc0rsc5ILC5JZWBgYGJmYC3OyS8phrAl0JSVpOakFiSWZFQCpVkYAE\/zTJdKAAAA","lore":["§aTelepathy
+    IV","§dHaste II","§6§oAn ancient spade used by","§6§othe realm god of excavation."],"display-name":"§6§lHeroic
+    Shiva''''s Excavator"}}'
+  '15': '{"==":"org.bukkit.inventory.ItemStack","amount":19,"type":"END_CRYSTAL","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","display-name":"§eTest
+    Giáp Thống Khổ"}}'
+  '16': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"GOLD_BLOCK","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":1},"internal":"H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA","Unbreakable":true,"lore":["§c§l§kKKK","","§l§kKKK"],"display-name":"§l§kKKK","ItemFlags":["HIDE_ENCHANTS","HIDE_ATTRIBUTES","HIDE_UNBREAKABLE"]}}'
+  '17': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"IRON_INGOT"}'
+  '18': '{"==":"org.bukkit.inventory.ItemStack","type":"DIAMOND_SWORD","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DURABILITY":300,"FIRE_ASPECT":2,"KNOCKBACK":5,"LOOT_BONUS_MOBS":30,"DAMAGE_ALL":75},"display-name":"§4Titan
+    Sword"}}'
+  '19': '{"==":"org.bukkit.inventory.ItemStack","amount":40,"type":"IRON_INGOT"}'
+  '21': '{"==":"org.bukkit.inventory.ItemStack","amount":19,"type":"STONE","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"FIRE_ASPECT":10}}}'
+  '22': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"IRON_BLOCK"}'
+  '23': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"IRON_BLOCK"}'
+  '24': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"IRON_BLOCK"}'
+  '25': '{"==":"org.bukkit.inventory.ItemStack","amount":15,"type":"END_ROD","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"FIRE_ASPECT":10},"internal":"H4sIAAAAAAAAAG2OvQ6CMBhFv8YFnQybP6MrCQpGGCtUbUILKWVwIjTQhMkE8eV4G99EMMbE4B3ucnJP7gwAwZKxmErC0jykKT5GJBckwVRQfkYIFiMaCHySAzRg\/oVD5zSEybPrEKxHI8olETiQNOa9dDXihAcXzD9a81crrwkBg+HeQHH071LKSPTeTsHEbdvU6tFW7FbWuq6aOwwZWbOsv7txPMcvVLm3\/FIVlqsOvqU87Vi2vVV6p33Xcyt4AUpnxeAnAQAA","Unbreakable":true,"lore":["§c§kHello","","Vật
+    phẩm pro mã"],"display-name":"§kKKK","ItemFlags":["HIDE_ENCHANTS","HIDE_ATTRIBUTES","HIDE_UNBREAKABLE"]}}'
+  '27': '{"==":"org.bukkit.inventory.ItemStack","amount":21,"type":"DIAMOND"}'
+  '28': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"GOLD_BLOCK","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":1},"internal":"H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA","Unbreakable":true,"lore":["§c§l§kKKK","","§l§kKKK"],"display-name":"§l§kKKK","ItemFlags":["HIDE_ENCHANTS","HIDE_ATTRIBUTES","HIDE_UNBREAKABLE"]}}'
+  '29': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"DIAMOND_BLOCK","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":1},"internal":"H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA","Unbreakable":true,"lore":["§c§l§kKKK","","§l§kKKK"],"display-name":"§l§kKKK","ItemFlags":["HIDE_ENCHANTS","HIDE_ATTRIBUTES","HIDE_UNBREAKABLE"]}}'
+  '30': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"DIAMOND_BLOCK","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":1},"internal":"H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA","Unbreakable":true,"lore":["§c§l§kKKK","","§l§kKKK"],"display-name":"§l§kKKK","ItemFlags":["HIDE_ENCHANTS","HIDE_ATTRIBUTES","HIDE_UNBREAKABLE"]}}'
+  '31': '{"==":"org.bukkit.inventory.ItemStack","amount":64,"type":"DIAMOND_BLOCK","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":1},"internal":"H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA","Unbreakable":true,"lore":["§c§l§kKKK","","§l§kKKK"],"display-name":"§l§kKKK","ItemFlags":["HIDE_ENCHANTS","HIDE_ATTRIBUTES","HIDE_UNBREAKABLE"]}}'
+  '32': '{"==":"org.bukkit.inventory.ItemStack","amount":38,"type":"DIAMOND_BLOCK","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":1},"internal":"H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA","Unbreakable":true,"lore":["§c§l§kKKK","","§l§kKKK"],"display-name":"§l§kKKK","ItemFlags":["HIDE_ENCHANTS","HIDE_ATTRIBUTES","HIDE_UNBREAKABLE"]}}'
+  '33': '{"==":"org.bukkit.inventory.ItemStack","amount":38,"type":"GOLD_BLOCK","meta":{"==":"ItemMeta","meta-type":"UNSPECIFIC","enchants":{"DAMAGE_ALL":1},"internal":"H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA","Unbreakable":true,"lore":["§c§l§kKKK","","§l§kKKK"],"display-name":"§l§kKKK","ItemFlags":["HIDE_ENCHANTS","HIDE_ATTRIBUTES","HIDE_UNBREAKABLE"]}}'

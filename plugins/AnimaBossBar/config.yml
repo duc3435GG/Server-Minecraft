@@ -1,0 +1,60 @@
+####################################
+#                                  #
+#    BossBar Made By Dutchwilco    #
+#           Version 4.7            #
+####################################
+#     Don't remove the '' or #     #
+####################################
+
+#Title and subtitle
+#Only working till 1.16!
+WelcomeTitle: true
+Title: '&aXin chào'
+SubTitle: '&aChào mừng %player_name% quay trở lại!'
+
+#WelcomeMessages
+WelcomeMessage: true
+FirstJoin: '&a%player_name% &eđã vào máy chủ cày cuốc'
+WelcomeBack: '&6Chào mừng quay trở lại &a %player_name%'
+
+#BossBar
+BossBar: true
+BossBar-Interval: 10 # in seconds
+
+bossbars:
+  '1':
+    text: '&aMáy chủ chuyên cày cuốc'
+    color: 'RED'
+    type: 'SOLID'
+  '2':
+    text: '&aỦng hộ bằng cách Donate'
+    color: 'GREEN'
+    type: 'SEGMENTED_6'
+  '3':
+    text: '&aMáy chủ được tạo ra từ cứt'
+    color: 'YELLOW'
+    type: 'SEGMENTED_10'
+  '4':
+    text: '&aTrong máy chủ có nhiều vật phẩm OP'
+    color: 'PURPLE'
+    type: 'SEGMENTED_12'
+  '5':
+    text: '&a#BanTumLum #Yamate-kurasai #Gai-nong-bong-sexy'
+    color: 'WHITE'
+    type: 'SEGMENTED_20'
+
+#AutoBroadcast
+ChatMessages: true
+Chat-Interval: 60
+
+chatmessages:
+  '1':
+    text: '&aỦng hộ máy chủ bằng cách Donate'
+
+
+# * for every world on the server
+bossbar-worlds:
+  - 'world'
+  - 'world_the_end'
+  - 'sinhton'
+  - 'shop'

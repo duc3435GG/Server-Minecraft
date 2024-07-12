@@ -1,0 +1,108 @@
+ShopName: Enchant
+DisplayName: '&2&lEnchanter'
+signs:
+  text: '[Enchant]'
+  NeedPermissionToCreateSign: true
+shop:
+  ncn:
+    MenuItem:
+    - name:&4 Nhặt 10
+    - amount:1
+    - type:ENCHANTED_BOOK
+    - lore:Cầm thanh kiếm trên tay
+    - lore:Cần 10000 POINT
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - ce add LOOT_BONUS_MOBS 10
+    PriceType: POINTS
+    Price: 100000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  ncpower:
+    MenuItem:
+    - name:&4 Sức mạnh 100
+    - amount:1
+    - type:ENCHANTED_BOOK
+    - lore:Cầm thanh kiếm trên tay
+    - lore:Cần 12000000 POINT
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - ce add ARROW_DAMAGE 100
+    PriceType: POINTS
+    Price: 12000000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  ncsmelt:
+    MenuItem:
+    - name:&4 Nung vật phẩm khi đào 10
+    - amount:1
+    - type:ENCHANTED_BOOK
+    - lore:Cầm cúp trên tay
+    - lore:Cần 10000 POINT
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - ce add AutoSmelt 10
+    PriceType: POINTS
+    Price: 100000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  ncmau:
+    MenuItem:
+    - name:&4 Cộng máu 50
+    - amount:1
+    - type:ENCHANTED_BOOK
+    - lore:Cầm giáp trên tay
+    - lore:Cần 10000 POINT
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - ce add OverLoad 50
+    PriceType: POINTS
+    Price: 100000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  nchutmau:
+    MenuItem:
+    - name:&4 Hút máu đối thủ 10
+    - amount:1
+    - type:ENCHANTED_BOOK
+    - lore:Cầm kiếm trên tay
+    - lore:Cần 10000 POINT
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - ce add LifeSteal 10
+    PriceType: POINTS
+    Price: 100000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+  ncdaonhanh:
+    MenuItem:
+    - name:&4 Đào nhanh 5
+    - amount:1
+    - type:ENCHANTED_BOOK
+    - lore:Cầm cúp trên tay
+    - lore:Cần 10000 POINT
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - ce add Haste 5
+    PriceType: POINTS
+    Price: 100000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  Back:
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    RewardType: SHOP
+    Reward: menu
+    PriceType: NOTHING
+    Message: '&6Leaving the ItemShop...'
+    ExtraPermission: ''
+    InventoryLocation: 27

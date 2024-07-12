@@ -1,0 +1,9 @@
+# 
+#  PlayerUUID
+#    Minion,world,xpos,ypos,zpos,yaw,health,worldforchest,xpos,ypos,zpos,stats,level
+ConfigVersion: '4.01'
+Players:
+  8ceeeae5-804e-383c-b8b5-d3c6e1231f1b: []
+MinionUUIDs:
+  b4e1c20b-fe99-4182-b171-eee3ef315a30: ''
+  5b840ceb-b035-4831-8122-74fa8c83cf31: ''

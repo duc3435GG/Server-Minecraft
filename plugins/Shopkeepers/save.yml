@@ -1,0 +1,2018 @@
+'1':
+  uniqueId: 59d6dd65-e20f-40d1-822d-b0835cbf2161
+  name: Nguyenlieu
+  world: shop
+  x: -38
+  y: 62
+  z: -36
+  type: admin
+  object: villager
+  uuid: dbfdbd25-a389-4608-a7f6-4f497ac9c727
+  prof: LIBRARIAN
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: COBBLESTONE
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: COBBLESTONE
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §k§lKKK §4Đá
+          lore:
+          - §cMaterial
+          - ''
+          - §k§lKKK §4Đá
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThUj0zQTM0ODJF1DQ6NkXRODlCRdiyRzE10z0zQD01Rj80SLJAMGAPrOfPbPAAAA
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIRT
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIRT
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIRT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQTpUUg0QDY3MjA11DY+MkXRML8zTdpMREY13jJAPjRBMzU2NLoyQGAC0DmQbPAAAA
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BLOCK
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BLOCK
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BLOCK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQTpW0ZMs0EzNLU91UY3NDXZNEg2Rdy+RUS920RFNjA+OklFTLJDMGACR6+d7PAAAA
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 5
+        amount: 5
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 5
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '&l&kKKK'
+          lore:
+          - §7AutoSmelt I
+          enchants:
+            ARROW_DAMAGE: 1
+            PROTECTION_ENVIRONMENTAL: 2
+'2':
+  uniqueId: 4f26fb2b-816f-4457-b848-312b69f77258
+  name: giap
+  world: shop
+  x: -38
+  y: 62
+  z: -34
+  type: admin
+  object: villager
+  uuid: 36d29a89-bf66-484a-9a8f-4a5feadd5cf2
+  prof: FARMER
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §k§lKKK §4Đá
+          lore:
+          - §cMaterial
+          - ''
+          - §k§lKKK §4Đá
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThUj0zQTM0ODJF1DQ6NkXRODlCRdiyRzE10z0zQD01Rj80SLJAMGAPrOfPbPAAAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BLOCK
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQTpW0ZMs0EzNLU91UY3NDXZNEg2Rdy+RUS920RFNjA+OklFTLJDMGACR6+d7PAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lHeroic Grim Reaper Shroud
+          lore:
+          - §aMolten IV
+          - §bVoodoo VI
+          - §bCurse V
+          - §eSpirits IX
+          - §6Overload I
+          - §6§oAn onyx shroud, eminating death.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          internal: H4sIAAAAAAAAAGXNSwqAIBRG4T/MoMY9FtNiQvRCgnpDzfUnNbPxB+dMgIBMjnMCIAVmRQcFfaqQPYW86zsm+mhpqDAb5mqDwNYYF4qOlanaCayNpstG+x7Hf9azyxSq9XgAg/hO9p4AAAA=
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §k§lKKK §4Đá
+          lore:
+          - §cMaterial
+          - ''
+          - §k§lKKK §4Đá
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThUj0zQTM0ODJF1DQ6NkXRODlCRdiyRzE10z0zQD01Rj80SLJAMGAPrOfPbPAAAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIRT
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQTpUUg0QDY3MjA11DY+MkXRML8zTdpMREY13jJAPjRBMzU2NLoyQGAC0DmQbPAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eHeroic Headless Chestplate of Nightmares
+          lore:
+          - §eTank IV
+          - §e§oA chestplate with a VERY spooky aura.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          internal: H4sIAAAAAAAAAONiYGBmYC3OyS8pZmBgYGRmEE5MjU/NS85IzCvJTc0rsS5JzMsGyrAwAACKZEBdKgAAAA==
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BLOCK
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQTpW0ZMs0EzNLU91UY3NDXZNEg2Rdy+RUS920RFNjA+OklFTLJDMGACR6+d7PAAAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eHeroic Headless Leggings of Nightmares
+          lore:
+          - §bWither V
+          - §e§oA pair of leggings with a VERY spooky aura.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          internal: H4sIAAAAAAAAAONiYGBmYC3OyS8pZmBgYGRmEE1MjU/NS85IzCvJTc0rsS7PLMlILQLKsTIAAJuCFiYsAAAA
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §k§lKKK §4Đá
+          lore:
+          - §cMaterial
+          - ''
+          - §k§lKKK §4Đá
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThUj0zQTM0ODJF1DQ6NkXRODlCRdiyRzE10z0zQD01Rj80SLJAMGAPrOfPbPAAAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eHeroic Headless Boots of Nightmares
+          lore:
+          - §bUndead Ruse IX
+          - §6Armored I
+          - §6Gears II
+          - §e§oA pair of boots with a VERY spooky aura.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          internal: H4sIAAAAAAAAAF3JMQqAMBAEwNXDQmsRfIuPkcMsWpgLXJL/G9t0A7MAgim/qWQ0ClblSbsetRJp5bip/tco2LpSj8kZWg6CvctqgRq8Zraf8QHkdREHaAAAAA==
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 20
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+        amount: 20
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lHeroic Headless Blade of Horror
+          lore:
+          - §bBlind I
+          - §bParalyze III
+          - §bVampire I
+          - §6Lifesteal III
+          - §6§oAn ancient blade imbued with the nightmares
+          - §6§oof all who have fallen before it.
+          enchants:
+            DAMAGE_ALL: 5
+            DURABILITY: 3
+            FIRE_ASPECT: 2
+          internal: H4sIAAAAAAAAAF3LQQ5AMBAF0C/DxlpwF4eRwYgm02raRsLpVey6fnktQGiinikCqAkjyyxuPdglKy5NanaJSVgzE6Ev+GLrTZCMFWEo0HNgvR/5a1foosZtX8QL6I4VWYUAAAA=
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 5
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '&l&kKKK'
+          lore:
+          - §7AutoSmelt I
+          enchants:
+            ARROW_DAMAGE: 1
+            PROTECTION_ENVIRONMENTAL: 2
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 5
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '&l&kKKK'
+          lore:
+          - §7AutoSmelt I
+          enchants:
+            ARROW_DAMAGE: 1
+            PROTECTION_ENVIRONMENTAL: 2
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lHeroic Hermes Blade of Swiftness
+          lore:
+          - §aFeatherweight II
+          - §bPoison II
+          - §bParalyze II
+          - §6Disarmor VIII
+          - §6Inquisitive II
+          - §6Double Strike III
+          - §6Lifesteal II
+          - §6§oA weapon unrivaled in destructive speed.
+          enchants:
+            DAMAGE_ALL: 5
+            DURABILITY: 2
+            FIRE_ASPECT: 2
+          internal: H4sIAAAAAAAAAGXM0Q4BQQyF4UYjxL0QvImHkaJrGt0Z2i7h6Y2sq3H9/ecsABCmriUcAGYIa+ID51OiHD3n2Kt07MGklScI24bPZThqDUyuXAtE2DSF5PsgLiEPHi9W7YU4WV+s6vxfb2Skr/dvu2y1iJc82q6xjikS25PlkuKbwAd5B+uI7QAAAA==
+'3':
+  uniqueId: d98ed305-e915-4600-9770-ed6019c673fe
+  name: ronaldo
+  world: shop
+  x: -38
+  y: 62
+  z: -32
+  type: admin
+  object: villager
+  uuid: 88db8094-8f36-4903-b87c-8b3f486ba522
+  prof: FARMER
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK §2 Kiếm thần
+          lore:
+          - §cSword
+          - ''
+          - '§7➸ Attack Damage: §f20'
+          - '§7➸ Attack Speed: §f20'
+          - '§7■ Crit Strike Chance: §f+50%'
+          - '§7■ Crit Strike Power: §f+100%'
+          - '§7■ PvE Damage: §f+20%'
+          - '§7■ Weapon Damage: §f+5%'
+          - '§7■ Fall Damage Reduction: §f+10%'
+          - '§7■ Fire Damage Reduction: §f+2%'
+          - '§7■ Magic Damage Reduction: §f+4%'
+          - '§7■ Undead Damage: §f+20%'
+          - '§7■ Health Regeneration: §f+1%'
+          - '§7■ Block Power: §f+25%'
+          - '§7■ Block Rating: §f+50%'
+          - '§7■ Dodge Rating: §f+10%'
+          - '§7■ Block Cooldown Reduction: §f+20%'
+          - '§7■ Dodge Cooldown Reduction: §f+20%'
+          - '§7✠ Knockback Resistance: §f+20'
+          - '§c❤ Health: +5'
+          - ''
+          - '§2On Hit: Blind'
+          - '§2Mana: 5'
+          - '§2Cooldown: 2'
+          - §2
+          - '§2Right Click: Swiftness'
+          - '§2Cooldown: 0'
+          - '§2Duration: 10'
+          - '§2Mana: 0'
+          - '§2Amplifier: 3'
+          enchants:
+            DAMAGE_ALL: 10
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAI1UzY7SUBi9mWEmzCQm4wy6MTP+ZEzcQHBgEEyIXNo75Up/SHsRZ9Vc4DLTgbYESnTBwjcwceXSB/Ap3JoYn8GlicbEhcYYYwullKkYumjantPvO+d8X7sNwCbYkyQFEyRpeu0J0nkoQQGVsmByhFEJPtUrCIqkUkrM0GsBqiIByUiFBCvyo29RnFd4AekeLgulwxmeCPCyqHBVvaY0kFoqzOCDAD6Bouhrc1vxdc7rM69zPSDWZR5BPmLj9iUhnKKIvNKQQ8V8bhzsBlzvrJPTGgIbWkNR+QhWr2MeHOYKuQedwhFL5lihlcxmCs1kk+bbyWyH5liWskw+lw+/CstYxAQjDVyURSzzY0XWK5iMTWrR4nEqPW7Zdq9tP7OKR6n0Xa2BT4iMNG2sYqFCdE7EXHVOSbv89mhAHcO2ive9u0kZ74Ka/Z7RMdigmEmlwxlMw16eQThQSAh0yZcDvRkQONX1wkFR14iKq260FShzqISjpRoI1lyrfqlEtJT7HHPRMe/MmPsBsyq7DsqeMBVpWCOTlsEEdxan5M5orUrC2+ib0moI8XNPB0s9TffyNLrW0yT9tfYtb4Fd6DgDozlymGS3JxMYbrtAbB3EvY2R7KHzp/tJWAdb3q3I6NDJNt8fb4BNaNojy4GvPRcxrWc7IG5SwzqnVjsOrgRlZWoykDhjFhsYrRR1HNrq8tSkZ8ytqfTZdB2mYcSWk0FI0Lu3t36EBT38+PjOXNCLVQTtLfbQ+oy1l+n5Fzcs5/fa95dhORf3fn4O5JTerCLn6qyFSZ9XGO0558vERJlhKa/Ur/thKV8+/BLmyawk5casQdeyW92ma1hlQ2PoUKu1dGL/e2fx34hVFP1ogH/8BdvYqIvkBQAA
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BLOCK
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQTpW0ZMs0EzNLU91UY3NDXZNEg2Rdy+RUS920RFNjA+OklFTLJDMGACR6+d7PAAAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §k§lKKK §4Đá
+          lore:
+          - §cMaterial
+          - ''
+          - §k§lKKK §4Đá
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThUj0zQTM0ODJF1DQ6NkXRODlCRdiyRzE10z0zQD01Rj80SLJAMGAPrOfPbPAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §cSword
+          - ''
+          - '§7➸ Attack Speed: §f99999'
+          - '§7■ Crit Strike Chance: §f+99%'
+          - '§7■ Dodge Rating: §f+999%'
+          - '§7■ Dodge Cooldown Reduction: §f+999999999999%'
+          enchants:
+            KNOCKBACK: 32767
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAHWPzUrDUBCFJ7QNaUWQipu6EMFtpD9pawWht8mlXpqfkqRUV+G2va1Bk5T0du8buPEFXPsSii/iI7gSd5ooVGpxFgPDOXPmmwKACAeGYREXG46n2sQlKtI9x7VJD3vqOTJV3L54grRE2Fs5NUvrYs9GLjG77buTb12A0q9OHNTREwfuI2InJkGCnZWado9oICAB9jd2sJneTZMFEQ7/nFQtS9esoZkkawPVJZbZCUr3D5+va3jIdZHa85w+xlr7w39L8SQorgO4l30MOWdo2Voeiojz2B8tOTOiiT/1WbwopD9lQBoMiGZEC/6+dfacgXw66owuuD97PM2BiIJoGfLui3ErQda5iThIAfXDKxpOJNhexZo0YLA7YyGL/fEx5ZyOr505Y5Mk0pqzmHI/Cn84s/96N59IaeBoVKa1aqNVlquVk7qsTMpjuaXUKnKrWW8qjabCptU6fAER3zEp7QEAAA==
+'4':
+  uniqueId: b28325eb-5701-4ed2-9680-57d25beae27d
+  name: messi
+  world: shop
+  x: -38
+  y: 62
+  z: -30
+  type: admin
+  object: villager
+  uuid: 993ef17d-81d0-4e2c-a58c-021408f34f1d
+  prof: FARMER
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 5
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '&l&kKKK'
+          lore:
+          - §7AutoSmelt I
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            ARROW_DAMAGE: 1
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §k§lKKK §4Đá
+          lore:
+          - §cMaterial
+          - ''
+          - §k§lKKK §4Đá
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThUj0zQTM0ODJF1DQ6NkXRODlCRdiyRzE10z0zQD01Rj80SLJAMGAPrOfPbPAAAA
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 5
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '&l&kKKK'
+          lore:
+          - §7AutoSmelt I
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            ARROW_DAMAGE: 1
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BLOCK
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQTpW0ZMs0EzNLU91UY3NDXZNEg2Rdy+RUS920RFNjA+OklFTLJDMGACR6+d7PAAAA
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 5
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '&l&kKKK'
+          lore:
+          - §7AutoSmelt I
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            ARROW_DAMAGE: 1
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 5
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '&l&kKKK'
+          lore:
+          - §7AutoSmelt I
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            ARROW_DAMAGE: 1
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §k§lKKK §4Đá
+          lore:
+          - §cMaterial
+          - ''
+          - §k§lKKK §4Đá
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThUj0zQTM0ODJF1DQ6NkXRODlCRdiyRzE10z0zQD01Rj80SLJAMGAPrOfPbPAAAA
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BLOCK
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQTpW0ZMs0EzNLU91UY3NDXZNEg2Rdy+RUS920RFNjA+OklFTLJDMGACR6+d7PAAAA
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA
+'5':
+  uniqueId: 0d66c0bc-c58d-49d2-87c3-58a0f024ea66
+  name: Vippppppppp
+  world: shop
+  x: -38
+  y: 62
+  z: -28
+  type: admin
+  object: villager
+  uuid: c12aa821-3aad-4c05-b2dc-1491924b6b48
+  prof: FARMER
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 5
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '&l&kKKK'
+          lore:
+          - §7AutoSmelt I
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            ARROW_DAMAGE: 1
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §k§lKKK §4Đá
+          lore:
+          - §cMaterial
+          - ''
+          - §k§lKKK §4Đá
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThUj0zQTM0ODJF1DQ6NkXRODlCRdiyRzE10z0zQD01Rj80SLJAMGAPrOfPbPAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: TOTEM
+'6':
+  uniqueId: 5414a370-80f2-4a57-9584-749e288b4655
+  name: ''
+  world: shop
+  x: -38
+  y: 62
+  z: -26
+  type: admin
+  object: villager
+  uuid: bf63ed6d-8321-4ebd-ab86-d91bf5fe19cc
+  prof: FARMER
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: END_ROD
+        amount: 16
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: END_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §kKKK
+          lore:
+          - §c§kHello
+          - ''
+          - Vật phẩm pro mã
+          enchants:
+            FIRE_ASPECT: 10
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAG2OvQ6CMBhFv8YFnQybP6MrCQpGGCtUbUILKWVwIjTQhMkE8eV4G99EMMbE4B3ucnJP7gwAwZKxmErC0jykKT5GJBckwVRQfkYIFiMaCHySAzRg/oVD5zSEybPrEKxHI8olETiQNOa9dDXihAcXzD9a81crrwkBg+HeQHH071LKSPTeTsHEbdvU6tFW7FbWuq6aOwwZWbOsv7txPMcvVLm3/FIVlqsOvqU87Vi2vVV6p33Xcyt4AUpnxeAnAQAA
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: END_ROD
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §kKKK
+          lore:
+          - §c§kHello
+          - ''
+          - Vật phẩm pro mã
+          enchants:
+            FIRE_ASPECT: 10
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAG2OvQ6CMBhFv8YFnQybP6MrCQpGGCtUbUILKWVwIjTQhMkE8eV4G99EMMbE4B3ucnJP7gwAwZKxmErC0jykKT5GJBckwVRQfkYIFiMaCHySAzRg/oVD5zSEybPrEKxHI8olETiQNOa9dDXihAcXzD9a81crrwkBg+HeQHH071LKSPTeTsHEbdvU6tFW7FbWuq6aOwwZWbOsv7txPMcvVLm3/FIVlqsOvqU87Vi2vVV6p33Xcyt4AUpnxeAnAQAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §k§lKKK §4Đá
+          lore:
+          - §cMaterial
+          - ''
+          - §k§lKKK §4Đá
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThUj0zQTM0ODJF1DQ6NkXRODlCRdiyRzE10z0zQD01Rj80SLJAMGAPrOfPbPAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BLOCK
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQTpW0ZMs0EzNLU91UY3NDXZNEg2Rdy+RUS920RFNjA+OklFTLJDMGACR6+d7PAAAA
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: END_ROD
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §kKKK
+          lore:
+          - §c§kHello
+          - ''
+          - Vật phẩm pro mã
+          enchants:
+            FIRE_ASPECT: 10
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAG2OvQ6CMBhFv8YFnQybP6MrCQpGGCtUbUILKWVwIjTQhMkE8eV4G99EMMbE4B3ucnJP7gwAwZKxmErC0jykKT5GJBckwVRQfkYIFiMaCHySAzRg/oVD5zSEybPrEKxHI8olETiQNOa9dDXihAcXzD9a81crrwkBg+HeQHH071LKSPTeTsHEbdvU6tFW7FbWuq6aOwwZWbOsv7txPMcvVLm3/FIVlqsOvqU87Vi2vVV6p33Xcyt4AUpnxeAnAQAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BLOCK
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQTpW0ZMs0EzNLU91UY3NDXZNEg2Rdy+RUS920RFNjA+OklFTLJDMGACR6+d7PAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: END_ROD
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §kKKK
+          lore:
+          - §c§kHello
+          - ''
+          - Vật phẩm pro mã
+          enchants:
+            FIRE_ASPECT: 10
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAG2OvQ6CMBhFv8YFnQybP6MrCQpGGCtUbUILKWVwIjTQhMkE8eV4G99EMMbE4B3ucnJP7gwAwZKxmErC0jykKT5GJBckwVRQfkYIFiMaCHySAzRg/oVD5zSEybPrEKxHI8olETiQNOa9dDXihAcXzD9a81crrwkBg+HeQHH071LKSPTeTsHEbdvU6tFW7FbWuq6aOwwZWbOsv7txPMcvVLm3/FIVlqsOvqU87Vi2vVV6p33Xcyt4AUpnxeAnAQAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: END_ROD
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §kKKK
+          lore:
+          - §c§kHello
+          - ''
+          - Vật phẩm pro mã
+          enchants:
+            FIRE_ASPECT: 10
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAG2OvQ6CMBhFv8YFnQybP6MrCQpGGCtUbUILKWVwIjTQhMkE8eV4G99EMMbE4B3ucnJP7gwAwZKxmErC0jykKT5GJBckwVRQfkYIFiMaCHySAzRg/oVD5zSEybPrEKxHI8olETiQNOa9dDXihAcXzD9a81crrwkBg+HeQHH071LKSPTeTsHEbdvU6tFW7FbWuq6aOwwZWbOsv7txPMcvVLm3/FIVlqsOvqU87Vi2vVV6p33Xcyt4AUpnxeAnAQAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: END_ROD
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §kKKK
+          lore:
+          - §c§kHello
+          - ''
+          - Vật phẩm pro mã
+          enchants:
+            FIRE_ASPECT: 10
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAG2OvQ6CMBhFv8YFnQybP6MrCQpGGCtUbUILKWVwIjTQhMkE8eV4G99EMMbE4B3ucnJP7gwAwZKxmErC0jykKT5GJBckwVRQfkYIFiMaCHySAzRg/oVD5zSEybPrEKxHI8olETiQNOa9dDXihAcXzD9a81crrwkBg+HeQHH071LKSPTeTsHEbdvU6tFW7FbWuq6aOwwZWbOsv7txPMcvVLm3/FIVlqsOvqU87Vi2vVV6p33Xcyt4AUpnxeAnAQAA
+'7':
+  uniqueId: 1391c8a4-1a41-42b8-9c81-6483cd111d7c
+  name: ''
+  world: shop
+  x: -38
+  y: 62
+  z: -24
+  type: admin
+  object: villager
+  uuid: d9c733a0-c588-45fb-a015-b50390edcfe6
+  prof: FARMER
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            FIRE_ASPECT: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Heroic Shroud of the Holy Order
+          lore:
+          - §eTank I
+          - §6Armored IV
+          - §6§oA shiny elegant silk shroud
+          - §6§olinked together with chainmail.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 5
+            DURABILITY: 3
+          internal: H4sIAAAAAAAAAONiYGBmYC3OyS8pZmBgYGJmEEtMjU/NS85IzCvJTc0rsU4sys0vSk0BSrIwMwijSZYk5mUDZRgZANa/sftHAAAA
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            FIRE_ASPECT: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lTattered Robes of the Reaper
+          lore:
+          - §bTrickster VIII
+          - §bUndead Ruse I
+          - §eDiminish V
+          - §eObsidianshield I
+          - §6Overload II
+          - §6§oDistressed and disturbed, these black
+          - §6§orobes devour all light before them.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 5
+            PROTECTION_FIRE: 2
+            DURABILITY: 4
+          internal: H4sIAAAAAAAAAF3NQQqDQAxG4d8OQukFtAtP0sOU1AQmdMzAJPb8VdzN+nvwHkDC6KWGAxgTJpK32JrJYhOLV/1JK5X40FvC0uvHlZXMs0o5myHh2TW7sRC33eXy/sC6qann6z93Gk3Xr4e0g+/4AwoAltivAAAA
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            FIRE_ASPECT: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lHeroic Platelegs of Athena
+          lore:
+          - §eTank II
+          - §eCreeper Armor II
+          - §eAngelic IV
+          - §6Armored III
+          - §6§oForged in the depths of Hephasteus
+          - §6§oimmuned to the weapons of mere mortals.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 5
+            DURABILITY: 3
+          internal: H4sIAAAAAAAAAGXKMQqAMAxG4R+ji6vg4lE8jJQaVGxTSXN/rLrV7cH7eoAwOl5Y/O7EIovNTjYOhwfQErockuWvf1BjUl7LJMJUTa/MF+trimgIQyXMyfkc3JbtgTqGAAAA
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            FIRE_ASPECT: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Heroic Boots of the Holy Order
+          lore:
+          - §bRocket Escape I
+          - §bSprings III
+          - §eTank I
+          - §eAngelic V
+          - §6Armored IV
+          - §6Gears II
+          - §6§oSmelted out of pure holy essence.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 5
+            DURABILITY: 3
+          internal: H4sIAAAAAAAAAG3NwQrCMBCE4dG1HrwqXnwUH0aWOMTSdlM2+/6YXKO3ge+HuQCCu/JFSx+12GjxVMtc5wRgEkx1LVHbPv+GdffZckcR3AbMVO90/HPgW3G+G54EjwG9pIXBmnRnKw6C61CE2tIFX+AJRCS+AAAA
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            FIRE_ASPECT: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §k§lKKK §4Đá
+          lore:
+          - §cMaterial
+          - ''
+          - §k§lKKK §4Đá
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThUj0zQTM0ODJF1DQ6NkXRODlCRdiyRzE10z0zQD01Rj80SLJAMGAPrOfPbPAAAA
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            FIRE_ASPECT: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BLOCK
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQTpW0ZMs0EzNLU91UY3NDXZNEg2Rdy+RUS920RFNjA+OklFTLJDMGACR6+d7PAAAA
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            FIRE_ASPECT: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            FIRE_ASPECT: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA
+'8':
+  uniqueId: e6059057-b985-4ba1-b28d-17a430e403b0
+  name: ''
+  world: shop
+  x: -38
+  y: 62
+  z: -22
+  type: admin
+  object: villager
+  uuid: b1391378-d0b4-48ad-8157-92a7d0db5d3a
+  prof: FARMER
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            FIRE_ASPECT: 10
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: END_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §kKKK
+          lore:
+          - §c§kHello
+          - ''
+          - Vật phẩm pro mã
+          enchants:
+            FIRE_ASPECT: 10
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAG2OvQ6CMBhFv8YFnQybP6MrCQpGGCtUbUILKWVwIjTQhMkE8eV4G99EMMbE4B3ucnJP7gwAwZKxmErC0jykKT5GJBckwVRQfkYIFiMaCHySAzRg/oVD5zSEybPrEKxHI8olETiQNOa9dDXihAcXzD9a81crrwkBg+HeQHH071LKSPTeTsHEbdvU6tFW7FbWuq6aOwwZWbOsv7txPMcvVLm3/FIVlqsOvqU87Vi2vVV6p33Xcyt4AUpnxeAnAQAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5§kKKK §6 Kiếm thần §5§kKKK
+          lore:
+          - §c§3§kKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+          - ''
+          - '§7➸ Attack Damage: §f90'
+          - '§7➸ Attack Speed: §f30'
+          - '§7■ Crit Strike Chance: §f+30%'
+          - '§7■ Crit Strike Power: §f+20%'
+          - '§7■ PvE Damage: §f+120%'
+          - '§7■ Weapon Damage: §f+20%'
+          - '§7■ Magic Damage: §f+20%'
+          - '§7■ Damage Reduction: §f+10%'
+          - '§7■ Fall Damage Reduction: §f+10%'
+          - '§7■ Fire Damage Reduction: §f+10%'
+          - '§7■ Magic Damage Reduction: §f+10%'
+          - '§7■ Health Regeneration: §f+20%'
+          - '§7■ Block Power: §f+50%'
+          - '§7■ Block Rating: §f+20%'
+          - '§7■ Dodge Rating: §f+30%'
+          - '§7■ Block Cooldown Reduction: §f+10%'
+          - '§7■ Dodge Cooldown Reduction: §f+100%'
+          - '§7✠ Armor: §f+10'
+          - '§7✠ Armor Toughness: §f+6'
+          - '§7✠ Knockback Resistance: §f+100'
+          - '§c❤ Health: +60'
+          - '§7■ Max Mana: §f+300'
+          - ''
+          - '§2Shift Left Click: Targeted Fireball'
+          - '§2Damage: 99'
+          - '§2Cooldown: 0'
+          - §2
+          - '§2On Hit: Blind'
+          - §2
+          - '§2Shift Right Click: Present Throw'
+          - '§2Damage: 100'
+          - '§2Cooldown: 0'
+          - '§2Radius: 8'
+          - ''
+          - §6---------Thông tin---------
+          enchants:
+            DAMAGE_ALL: 150
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAI2Uv2/bRhTHz04iOAZSJE6c5keTNkCCFEUl0LLdWilc6ESexIP4QzierXopcSYZW7BFuiSdZmCBjl36D3TJlCwJArRDUaBLhg4ds3ToWBQoCnTov5AjJZHUDwbSQEB4777v89597y0DUAKXVVXHFKmG2dlFpgRV2EL1L0HyWwKrWRQR1UTNJhKpAa4bHYSkB9XPsCYSBI3RwQfreUEVfmHKCCpUrmsDwQVwPY1K2IANBZkigU2KtdZCCVxJgw1FF9tmR+8iUscjmJU0HH9NutdB4JzR1Yk0FdvZwRK4u1lbt1jN3i9bwidb5Q2r5pRr+w+t8maNfWrb687WZtXOH4UNrGCKkQG+p5C0EEWS2cQENaCiRIaMm9RUEP+IChbbkc367MDZrtUqQmR53rHtfe1uCxXhXkPBmhTpmiljeq9DkIE0alKZ6N2hCMEteUJlTRAmZCKf2b3TYHurIpTApbGhqlCDdf9VMpYSuDMxNVHXFUnvaiZB0o5Isa7V74Jh7tWsV0ohTx5e+O63w4T30wSR8FGIUDENSnCb35MMNRHVP5+W6iLY4d0OpTZGV31j6qoJ6kBMBnf9TkZCVJ1kiLfSQFvj7TRiSj5DbNCk/t4ob3WylcSTGd/twk4GttqYFhrMj8DYjln82jipSfWdlqwhw6hfG6XkXJ0MYdboszIEtZCG4jI8PgND0qVYYoAxo58mt+NbCt2ZEJrhh73Rk3p3/Nl0IOGTUvgDaDQVqKIodn9T4S8iCk4cx+a+3IhY3zt1w+1qZtG1ynrkeyELe55bHiSuVap5M3FWLBYyL4GL4xz88S62dxfAzSkLIS324XBfrM7Uzxw4vWwMFSnJ4fNgBYah39s/DR3Vs3sPe44fLMfzOwOW4u2hekG4Ivz51xlwPv6rOCwIn/720XfnQAkmA2j8FIOfNY69ECz1Wc89ZC7fJhdSWY31HXDlwHEdv2dVWBgy60hKXjvX1E8cP5nXoP+zxckgB/TLf+yPPND9/59UUyD4eh6gy+M1jPi2inhm5eZxnr149GMe5/EPL9/LcD6YB+dCWsLve34RyHhWHuH56w+X8wgvF71WilB/NQ/C1TFx6p0eHLpOEBSxFKTnoX6u/bqVh/r3Y+ubzDcn80BdGlXps8eyw47DwyKe6cw8yqL7TymP8tXB30KG8vs8KDdHBY5czzra50YgTtALQuZahU5+25nxXcYXTOFeAG8AXJNo66IIAAA=
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            FIRE_ASPECT: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2Đá ném
+          lore:
+          - §c§6§kKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+          - ''
+          - §7■ Can identify items.
+          - ''
+          - '§2Right Click: Present Throw'
+          - '§2Damage: 99999999'
+          - '§2Cooldown: 0'
+          - '§2Radius: 10'
+          enchants:
+            DAMAGE_ALL: 10
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAGWPQWuDQBSEnz2lOZVAL+21V4M2ptGDh41u46PuKuvakpOoq0VoKxhDL/74agtSyBweD4ZvmFkCLGDFWISSsiQjewxRIk2AxoImlMtMBiJ6GwQeApl5IXovg8o/8/fKddbOn+huKNv2Q7XfX66xNoYuV8355Jrjr8HdnO1jQvYhzQSNCQrkB20BN7M73Qx9uPJfNbi/gCj3AsLlRGlwO9se4SM01sTno/Z/yG+cPMYUll7Ek5RNKdewIn3fNcW5r1irmrqpuhNMukDTdOzysCudTVlUjv5Ul1vdcpSlF49bpdumbRq5lZv1xoYf4CLArEMBAAA=
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §k§lKKK §4Đá
+          lore:
+          - §cMaterial
+          - ''
+          - §k§lKKK §4Đá
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThUj0zQTM0ODJF1DQ6NkXRODlCRdiyRzE10z0zQD01Rj80SLJAMGAPrOfPbPAAAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2Đá ném
+          lore:
+          - §c§6§kKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+          - ''
+          - §7■ Can identify items.
+          - ''
+          - '§2Right Click: Present Throw'
+          - '§2Damage: 99999999'
+          - '§2Cooldown: 0'
+          - '§2Radius: 10'
+          enchants:
+            DAMAGE_ALL: 10
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAGWPQWuDQBSEnz2lOZVAL+21V4M2ptGDh41u46PuKuvakpOoq0VoKxhDL/74agtSyBweD4ZvmFkCLGDFWISSsiQjewxRIk2AxoImlMtMBiJ6GwQeApl5IXovg8o/8/fKddbOn+huKNv2Q7XfX66xNoYuV8355Jrjr8HdnO1jQvYhzQSNCQrkB20BN7M73Qx9uPJfNbi/gCj3AsLlRGlwO9se4SM01sTno/Z/yG+cPMYUll7Ek5RNKdewIn3fNcW5r1irmrqpuhNMukDTdOzysCudTVlUjv5Ul1vdcpSlF49bpdumbRq5lZv1xoYf4CLArEMBAAA=
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BLOCK
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQTpW0ZMs0EzNLU91UY3NDXZNEg2Rdy+RUS920RFNjA+OklFTLJDMGACR6+d7PAAAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2Đá ném
+          lore:
+          - §c§6§kKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+          - ''
+          - §7■ Can identify items.
+          - ''
+          - '§2Right Click: Present Throw'
+          - '§2Damage: 99999999'
+          - '§2Cooldown: 0'
+          - '§2Radius: 10'
+          enchants:
+            DAMAGE_ALL: 10
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAGWPQWuDQBSEnz2lOZVAL+21V4M2ptGDh41u46PuKuvakpOoq0VoKxhDL/74agtSyBweD4ZvmFkCLGDFWISSsiQjewxRIk2AxoImlMtMBiJ6GwQeApl5IXovg8o/8/fKddbOn+huKNv2Q7XfX66xNoYuV8355Jrjr8HdnO1jQvYhzQSNCQrkB20BN7M73Qx9uPJfNbi/gCj3AsLlRGlwO9se4SM01sTno/Z/yG+cPMYUll7Ek5RNKdewIn3fNcW5r1irmrqpuhNMukDTdOzysCudTVlUjv5Ul1vdcpSlF49bpdumbRq5lZv1xoYf4CLArEMBAAA=
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2Đá ném
+          lore:
+          - §c§6§kKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+          - ''
+          - §7■ Can identify items.
+          - ''
+          - '§2Right Click: Present Throw'
+          - '§2Damage: 99999999'
+          - '§2Cooldown: 0'
+          - '§2Radius: 10'
+          enchants:
+            DAMAGE_ALL: 10
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAGWPQWuDQBSEnz2lOZVAL+21V4M2ptGDh41u46PuKuvakpOoq0VoKxhDL/74agtSyBweD4ZvmFkCLGDFWISSsiQjewxRIk2AxoImlMtMBiJ6GwQeApl5IXovg8o/8/fKddbOn+huKNv2Q7XfX66xNoYuV8355Jrjr8HdnO1jQvYhzQSNCQrkB20BN7M73Qx9uPJfNbi/gCj3AsLlRGlwO9se4SM01sTno/Z/yG+cPMYUll7Ek5RNKdewIn3fNcW5r1irmrqpuhNMukDTdOzysCudTVlUjv5Ul1vdcpSlF49bpdumbRq5lZv1xoYf4CLArEMBAAA=
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVDkxQDc2OjFF1jM2NTXROjRENdC4tkI13zNIvEFENzI1MDIzMGAKNg95zPAAAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThVTQ+PkREMzA10TU3NDXZO0RENdC5M0C10zIxMLEwtjE+MkCyMGAMfbP7nPAAAA
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            FIRE_ASPECT: 10
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BLOCK
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §l§kKKK
+          lore:
+          - §c§l§kKKK
+          - ''
+          - §l§kKKK
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQTpW0ZMs0EzNLU91UY3NDXZNEg2Rdy+RUS920RFNjA+OklFTLJDMGACR6+d7PAAAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            FIRE_ASPECT: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §k§lKKK §4Đá
+          lore:
+          - §cMaterial
+          - ''
+          - §k§lKKK §4Đá
+          enchants:
+            DAMAGE_ALL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAONiYGBkkPL19fcMcfUNjnfxDHZ08nGND3INcPQM8vRzZ+RgEIDLgsh4TxcG1uAQfz9XRgZpDH2ufs4ejn4hEI1CqBpDIgNcGTh8HUNcgzwdfTgZhBxLSooyk0pLUn3zUzLTMlOLihlAAENjaCjQThUj0zQTM0ODJF1DQ6NkXRODlCRdiyRzE10z0zQD01Rj80SLJAMGAPrOfPbPAAAA
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        amount: 20
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            FIRE_ASPECT: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§l Gậy Vip 90
+          lore:
+          - §c§6§kKKKKKKKKKKKKKKKKKKKKK
+          - ''
+          - '§7➸ Attack Speed: §f999'
+          - '§7■ Health Regeneration: §f+120%'
+          - ''
+          - '§2On Hit: Confuse'
+          - '§2Cooldown: 0'
+          - ''
+          - §7Xoay Người 90 độ đối thủ
+          enchants:
+            DAMAGE_ALL: 1
+            SWEEPING_EDGE: 10
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          internal: H4sIAAAAAAAAAHVPX0vCUBQ/ko4pBGH0kq+9TmZZzYfAq7vpJXc3tmvhS+O6XWukm8wr9eB7L0GfJuixT1NfI2cwBOk8HDj8/p4KgApVy7IJw5bnow4ZEEawB7WuTa+HHl7Z1O8TtgqSZBomz/GVXtcVOMoVLu5hil3EiE3b97CZAhznuEk81BngNc9BxCW0V1DhIEez7RMTlB4a3RKnALUdIabdPqIsU27nIsZQ98b3HIzN9ruxyd3+ZOPMRg6Gkndnu2YZqkjKNBovpbCSMJpEIl1UsrJ7oA6HxLSShfxRXt/2oJydA8EX8uP7s1wCBc2SZSzNl691QtGbJhLUGY/iRx6HKuzntpTPBBw+iFikUVDnUvLgyZsLEa4t7blIuYyS+K9n8V/u7hNZGzgxRBiMDcPQjPOm0Jq60dBapw2uNcLWWXChNyf6pYBfQMlGP84BAAA=
+'9':
+  uniqueId: 5f8915e5-27e6-4f30-ae36-25d4053819e2
+  name: ''
+  world: shop
+  x: -40
+  y: 62
+  z: -22
+  type: admin
+  object: villager
+  uuid: f77e4e9a-1aef-42f1-9163-60222646dfee
+  prof: FARMER
+  recipes: {}
+'10':
+  uniqueId: a5301aa5-6e99-47c8-a832-a1b5c7c60883
+  name: ''
+  world: shop
+  x: -42
+  y: 62
+  z: -22
+  type: admin
+  object: villager
+  uuid: 7d4e8686-46e3-4221-8271-f03be06be737
+  prof: FARMER
+  recipes: {}

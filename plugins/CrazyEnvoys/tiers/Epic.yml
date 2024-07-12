@@ -1,0 +1,67 @@
+Settings:
+  # If they need a permission to claim this envoy. Set too false to disable.
+  Claim-Permission: false
+  # What permission they need.
+  Claim-Permission-Name: 'titan.envoy.use'
+  Spawn-Chance: 25
+  Use-Chance: true
+  Placed-Block: '116'
+  Bulk-Prizes:
+    Toggle: false
+    Random: true
+    Max-Bulk: 3
+  Hologram-Toggle: true
+  Hologram-Height: 1.5
+  Hologram:
+    - '&7&l(&4&l!&7&l) &4&lRương cực hiếm'
+  Firework-Toggle: true
+  Firework-Colors:
+    - 'Gray'
+    - 'Black'
+    - 'Red'
+  Signal-Flare:
+    Toggle: true
+    Time: '40s'
+    Colors:
+      - 'Gray'
+      - 'Black'
+      - 'Red'
+###################################
+#             Items: Options
+# Item:<ID:MD> - You can choose the item with its id and meta data.
+# Amount:<Number> - Choose how many of the item you get.
+# Name:<Name> - The display name that goes on the item.
+# Lore:<Line 1>,<Line 2>,<Line 3>,<Line 4> - The lore that will go under the enchantments. Split lines with a ','
+# Glowing:<True/False> - Will make the item have a glowing effect without having an enchantment on the item. (Only supports 1.8 - 1.11)
+# Unbreakable-Item:<True/False> - Will add the Unbreaking NBT tag to the item to allow custom textured items to be gained through the envoys.
+# <Enchantment>:<Level> - Choose the enchantment you want to add to the item. You can use the in-game names of the enchantment if you want. Replace the spaces in the name with "_".
+###################################
+Prizes:
+  '1':
+    Chance: 75
+    Messages:
+      - '&7You have just found &a$1,000,000,000&7.'
+    Commands:
+      - 'eco give %Player% 1000000000'
+  '2':
+    Chance: 50
+    Drop-Items: false
+    Messages:
+      - '&7Bạn nhận được a &4Kiếm &7hiếm.'
+    Items:
+      - 'Item:276, Amount:1, Name:&eKiếm Rare, Sharpness:30, Unbreaking:10000, Knockback:15, Fire_Aspect:10, Looting:30, Unbreakable-Item:True'
+  '3':
+    Chance: 25
+    Drop-Items: false
+    Messages:
+      - '&7 Win mẹ game đi là vừa &eGiáp &7Thống Khổ '
+    Items:
+      - 'Item:310, Amount:1, Name:&eMũ Thống Khổ, Protection:20, Unbreaking:100, Unbreakable-Item:True'
+      - 'Item:311, Amount:1, Name:&eGiáp Thống Khổ, Protection:20, Unbreaking:100, Unbreakable-Item:True'
+      - 'Item:312, Amount:1, Name:&eQuần Thống Khổ, Protection:20, Unbreaking:100, Unbreakable-Item:True'
+      - 'Item:313, Amount:1, Name:&eGiày Thống Khổ, Protection:20, Unbreaking:100, Unbreakable-Item:True'
+      - 'Item:426, Amount:64, Name:&eTest Giáp Thống Khổ'
+      - 'Item:41, Amount:64'
+      - 'Item:42, Amount:64'
+      - 'Item:57, Amount:64'
+      - 'Item:4, Amount:64'

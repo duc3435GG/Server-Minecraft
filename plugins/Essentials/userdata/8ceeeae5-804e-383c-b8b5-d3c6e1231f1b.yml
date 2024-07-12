@@ -1,0 +1,29 @@
+lastAccountName: duc962009
+timestamps:
+  login: 1718510750235
+  logout: 1718517291539
+  lastteleport: 1718516715699
+ipAddress: 192.168.1.130
+lastlocation:
+  world: sinhton
+  x: 12020.700966452281
+  y: 74.0
+  z: 12001.054441069022
+  yaw: 27.44759
+  pitch: 18.360777
+money: '808077481.0'
+logoutlocation:
+  world: sinhton
+  x: -250.30000001192093
+  y: 4.0
+  z: 275.51805534521793
+  yaw: 198.28955
+  pitch: 35.836285
+homes:
+  home:
+    world: sinhton
+    x: 12011.5
+    y: 74.0
+    z: 12005.5
+    yaw: 6.248799
+    pitch: 22.29316

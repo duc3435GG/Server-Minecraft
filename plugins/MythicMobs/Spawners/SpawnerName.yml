@@ -1,0 +1,26 @@
+SpawnerName:
+  SpawnerGroup: GroupName
+  MobName: SkeletalKnight
+  World: boss
+  X: 96
+  Y: 67
+  Z: 249
+  Radius: 5
+  UseTimer: true
+  MaxMobs: '1'
+  MobLevel: '1'
+  MobsPerSpawn: 600
+  Cooldown: 10000
+  CooldownTimer: 5799
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: false
+  ActivationRange: 40
+  ScalingRange: 25.0
+  LeashRange: 32
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: true
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

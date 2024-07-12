@@ -1,0 +1,29 @@
+# Citizens NPC Storage
+
+
+
+last-created-npc-id: 0
+npc:
+  '0':
+    name: §4 Máy chủ
+    uuid: 5dc2f3f2-0133-464e-89cc-f1ecab8152e4
+    traits:
+      type: PLAYER
+      location:
+        world: world
+        x: '-31.3'
+        y: '64.0'
+        z: '252.4979'
+        yaw: '88.81758117675781'
+        pitch: '0.0'
+      spawned: true
+      gravity:
+        enabled: false
+      owner:
+        owner: duc962009
+        uuid: 8ceeeae5-804e-383c-b8b5-d3c6e1231f1b
+    traitnames: inventory,gravity,spawned,location,equipment,mounttrait,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

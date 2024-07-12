@@ -1,0 +1,433 @@
+06-13-2024 20:23 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-13-2024 20:23 [INFO] [MyPet] No Update available.
+06-13-2024 20:23 [INFO] [MyPet] Citizens (2.0.24-SNAPSHOT (build 1605)) hook activated.
+06-13-2024 20:23 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-13-2024 20:23 [INFO] [MyPet] PlaceholderAPI (2.10.10) hook activated.
+06-13-2024 20:23 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-13-2024 20:23 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-13-2024 20:23 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-13-2024 20:23 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry
+06-13-2024 20:23 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-13-2024 20:23 [INFO] [MyPet] Default skilltree file created (default.st).
+06-13-2024 20:23 [INFO] [MyPet] No groups found. Everything will be in 'default' group.
+06-13-2024 20:23 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-13-2024 20:23 [INFO] [MyPet] added world to 'default' group.
+06-13-2024 20:23 [INFO] [MyPet] added world_nether to 'default' group.
+06-13-2024 20:23 [INFO] [MyPet] added world_the_end to 'default' group.
+06-13-2024 20:23 [INFO] [MyPet] -------------------------------------------------
+06-13-2024 20:23 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-13-2024 20:23 [INFO] [MyPet] added ASkyBlock to 'default' group.
+06-13-2024 20:23 [INFO] [MyPet] added ASkyBlock_nether to 'default' group.
+06-13-2024 20:28 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-13-2024 20:28 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry
+06-13-2024 20:30 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-13-2024 20:30 [INFO] [MyPet] No Update available.
+06-13-2024 20:30 [INFO] [MyPet] Citizens (2.0.24-SNAPSHOT (build 1605)) hook activated.
+06-13-2024 20:30 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-13-2024 20:30 [INFO] [MyPet] PlaceholderAPI (2.10.10) hook activated.
+06-13-2024 20:30 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-13-2024 20:30 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-13-2024 20:30 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-13-2024 20:30 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry
+06-13-2024 20:30 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-13-2024 20:30 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-13-2024 20:30 [INFO] [MyPet]    added 'world' to 'default'
+06-13-2024 20:30 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-13-2024 20:30 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-13-2024 20:30 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-13-2024 20:30 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-13-2024 20:30 [INFO] [MyPet] -------------------------------------------------
+06-13-2024 20:30 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-13-2024 20:37 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-13-2024 20:37 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry
+06-13-2024 20:42 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-13-2024 20:42 [INFO] [MyPet] No Update available.
+06-13-2024 20:42 [INFO] [MyPet] Citizens (2.0.24-SNAPSHOT (build 1605)) hook activated.
+06-13-2024 20:42 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-13-2024 20:42 [INFO] [MyPet] PlaceholderAPI (2.10.10) hook activated.
+06-13-2024 20:42 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-13-2024 20:42 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-13-2024 20:42 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-13-2024 20:42 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry
+06-13-2024 20:42 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-13-2024 20:42 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-13-2024 20:42 [INFO] [MyPet]    added 'world' to 'default'
+06-13-2024 20:42 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-13-2024 20:42 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-13-2024 20:42 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-13-2024 20:42 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-13-2024 20:42 [INFO] [MyPet] -------------------------------------------------
+06-13-2024 20:42 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-13-2024 22:26 [INFO] [MyPet] added shop to 'default' group.
+06-13-2024 22:35 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-13-2024 22:35 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry
+06-14-2024 08:28 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-14-2024 08:28 [INFO] [MyPet] No Update available.
+06-14-2024 08:28 [INFO] [MyPet] Citizens (2.0.24-SNAPSHOT (build 1605)) hook activated.
+06-14-2024 08:28 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-14-2024 08:28 [INFO] [MyPet] PlaceholderAPI (2.10.10) hook activated.
+06-14-2024 08:28 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-14-2024 08:28 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-14-2024 08:28 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-14-2024 08:28 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry
+06-14-2024 08:28 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-14-2024 08:28 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-14-2024 08:28 [INFO] [MyPet]    added 'world' to 'default'
+06-14-2024 08:28 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-14-2024 08:28 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-14-2024 08:28 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-14-2024 08:28 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-14-2024 08:28 [INFO] [MyPet]    added 'shop' to 'default'
+06-14-2024 08:28 [INFO] [MyPet] -------------------------------------------------
+06-14-2024 08:28 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-14-2024 08:34 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-14-2024 08:34 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry
+06-14-2024 08:36 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-14-2024 08:36 [INFO] [MyPet] No Update available.
+06-14-2024 08:36 [INFO] [MyPet] Citizens (2.0.24-SNAPSHOT (build 1605)) hook activated.
+06-14-2024 08:36 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-14-2024 08:36 [INFO] [MyPet] PlaceholderAPI (2.10.10) hook activated.
+06-14-2024 08:36 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-14-2024 08:36 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-14-2024 08:36 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-14-2024 08:36 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry
+06-14-2024 08:36 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-14-2024 08:36 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-14-2024 08:36 [INFO] [MyPet]    added 'world' to 'default'
+06-14-2024 08:36 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-14-2024 08:36 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-14-2024 08:36 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-14-2024 08:36 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-14-2024 08:36 [INFO] [MyPet]    added 'shop' to 'default'
+06-14-2024 08:36 [INFO] [MyPet] -------------------------------------------------
+06-14-2024 08:36 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-14-2024 10:41 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-14-2024 10:41 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry
+06-14-2024 11:09 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-14-2024 11:09 [INFO] [MyPet] No Update available.
+06-14-2024 11:09 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-14-2024 11:09 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+06-14-2024 11:09 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-14-2024 11:09 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-14-2024 11:09 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-14-2024 11:09 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-14-2024 11:09 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-14-2024 11:09 [INFO] [MyPet]    added 'world' to 'default'
+06-14-2024 11:09 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-14-2024 11:09 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-14-2024 11:09 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-14-2024 11:09 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-14-2024 11:09 [INFO] [MyPet]    added 'shop' to 'default'
+06-14-2024 11:09 [INFO] [MyPet] -------------------------------------------------
+06-14-2024 11:09 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-14-2024 11:15 [INFO] [MyPet] added sinhton to 'default' group.
+06-14-2024 11:24 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-14-2024 11:31 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-14-2024 11:31 [INFO] [MyPet] No Update available.
+06-14-2024 11:31 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-14-2024 11:31 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+06-14-2024 11:31 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-14-2024 11:31 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-14-2024 11:31 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-14-2024 11:31 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-14-2024 11:31 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-14-2024 11:31 [INFO] [MyPet]    added 'world' to 'default'
+06-14-2024 11:31 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-14-2024 11:31 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-14-2024 11:31 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-14-2024 11:31 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-14-2024 11:31 [INFO] [MyPet]    added 'shop' to 'default'
+06-14-2024 11:31 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-14-2024 11:31 [INFO] [MyPet] -------------------------------------------------
+06-14-2024 11:31 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-14-2024 11:36 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-14-2024 11:37 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-14-2024 11:37 [INFO] [MyPet] No Update available.
+06-14-2024 11:37 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-14-2024 11:37 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+06-14-2024 11:37 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-14-2024 11:37 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-14-2024 11:37 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-14-2024 11:37 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-14-2024 11:37 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-14-2024 11:37 [INFO] [MyPet]    added 'world' to 'default'
+06-14-2024 11:37 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-14-2024 11:37 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-14-2024 11:37 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-14-2024 11:37 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-14-2024 11:37 [INFO] [MyPet]    added 'shop' to 'default'
+06-14-2024 11:37 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-14-2024 11:37 [INFO] [MyPet] -------------------------------------------------
+06-14-2024 11:37 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-14-2024 11:42 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-14-2024 11:42 [INFO] [MyPet] No Update available.
+06-14-2024 11:42 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-14-2024 11:42 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+06-14-2024 11:42 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-14-2024 11:42 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-14-2024 11:42 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-14-2024 11:42 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-14-2024 11:42 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-14-2024 11:42 [INFO] [MyPet]    added 'world' to 'default'
+06-14-2024 11:42 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-14-2024 11:42 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-14-2024 11:42 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-14-2024 11:42 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-14-2024 11:42 [INFO] [MyPet]    added 'shop' to 'default'
+06-14-2024 11:42 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-14-2024 11:42 [INFO] [MyPet] -------------------------------------------------
+06-14-2024 11:42 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-14-2024 11:46 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-14-2024 11:46 [INFO] [MyPet] No Update available.
+06-14-2024 11:46 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-14-2024 11:46 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+06-14-2024 11:46 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-14-2024 11:46 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-14-2024 11:46 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-14-2024 11:46 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-14-2024 11:46 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-14-2024 11:46 [INFO] [MyPet]    added 'world' to 'default'
+06-14-2024 11:46 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-14-2024 11:46 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-14-2024 11:46 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-14-2024 11:46 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-14-2024 11:46 [INFO] [MyPet]    added 'shop' to 'default'
+06-14-2024 11:46 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-14-2024 11:46 [INFO] [MyPet] -------------------------------------------------
+06-14-2024 11:46 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-14-2024 11:48 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-14-2024 11:49 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-14-2024 11:49 [INFO] [MyPet] No Update available.
+06-14-2024 11:49 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-14-2024 11:49 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+06-14-2024 11:49 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-14-2024 11:49 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-14-2024 11:49 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-14-2024 11:49 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-14-2024 11:49 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-14-2024 11:49 [INFO] [MyPet]    added 'world' to 'default'
+06-14-2024 11:49 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-14-2024 11:49 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-14-2024 11:49 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-14-2024 11:49 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-14-2024 11:49 [INFO] [MyPet]    added 'shop' to 'default'
+06-14-2024 11:49 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-14-2024 11:49 [INFO] [MyPet] -------------------------------------------------
+06-14-2024 11:49 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-14-2024 18:03 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-14-2024 18:29 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-14-2024 18:29 [INFO] [MyPet] No Update available.
+06-14-2024 18:29 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-14-2024 18:29 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+06-14-2024 18:29 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-14-2024 18:29 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-14-2024 18:29 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-14-2024 18:29 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-14-2024 18:29 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-14-2024 18:29 [INFO] [MyPet]    added 'world' to 'default'
+06-14-2024 18:29 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-14-2024 18:29 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-14-2024 18:29 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-14-2024 18:29 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-14-2024 18:29 [INFO] [MyPet]    added 'shop' to 'default'
+06-14-2024 18:29 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-14-2024 18:29 [INFO] [MyPet] -------------------------------------------------
+06-14-2024 18:29 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-14-2024 19:02 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-14-2024 19:07 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-14-2024 19:07 [INFO] [MyPet] No Update available.
+06-14-2024 19:07 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-14-2024 19:07 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+06-14-2024 19:07 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-14-2024 19:07 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-14-2024 19:07 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-14-2024 19:07 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-14-2024 19:07 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-14-2024 19:07 [INFO] [MyPet]    added 'world' to 'default'
+06-14-2024 19:07 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-14-2024 19:07 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-14-2024 19:07 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-14-2024 19:07 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-14-2024 19:07 [INFO] [MyPet]    added 'shop' to 'default'
+06-14-2024 19:07 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-14-2024 19:07 [INFO] [MyPet] -------------------------------------------------
+06-14-2024 19:07 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-14-2024 20:35 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-14-2024 20:42 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-14-2024 20:42 [INFO] [MyPet] No Update available.
+06-14-2024 20:42 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-14-2024 20:42 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+06-14-2024 20:42 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-14-2024 20:42 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-14-2024 20:42 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-14-2024 20:42 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-14-2024 20:42 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-14-2024 20:42 [INFO] [MyPet]    added 'world' to 'default'
+06-14-2024 20:42 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-14-2024 20:42 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-14-2024 20:42 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-14-2024 20:42 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-14-2024 20:42 [INFO] [MyPet]    added 'shop' to 'default'
+06-14-2024 20:42 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-14-2024 20:42 [INFO] [MyPet] -------------------------------------------------
+06-14-2024 20:42 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-14-2024 23:13 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-15-2024 08:22 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-15-2024 08:22 [INFO] [MyPet] No Update available.
+06-15-2024 08:22 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-15-2024 08:22 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+06-15-2024 08:22 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-15-2024 08:22 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-15-2024 08:22 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-15-2024 08:22 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-15-2024 08:22 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-15-2024 08:22 [INFO] [MyPet]    added 'world' to 'default'
+06-15-2024 08:22 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-15-2024 08:22 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-15-2024 08:22 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-15-2024 08:22 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-15-2024 08:22 [INFO] [MyPet]    added 'shop' to 'default'
+06-15-2024 08:22 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-15-2024 08:22 [INFO] [MyPet] -------------------------------------------------
+06-15-2024 08:22 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-15-2024 09:03 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-15-2024 09:05 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-15-2024 09:05 [INFO] [MyPet] No Update available.
+06-15-2024 09:05 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-15-2024 09:05 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+06-15-2024 09:05 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-15-2024 09:05 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-15-2024 09:05 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-15-2024 09:05 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-15-2024 09:05 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-15-2024 09:05 [INFO] [MyPet]    added 'world' to 'default'
+06-15-2024 09:05 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-15-2024 09:05 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-15-2024 09:05 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-15-2024 09:05 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-15-2024 09:05 [INFO] [MyPet]    added 'shop' to 'default'
+06-15-2024 09:05 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-15-2024 09:05 [INFO] [MyPet] -------------------------------------------------
+06-15-2024 09:05 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-15-2024 11:53 [INFO] [MyPet] added boss to 'default' group.
+06-15-2024 13:09 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-15-2024 13:24 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-15-2024 13:24 [INFO] [MyPet] No Update available.
+06-15-2024 13:24 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-15-2024 13:24 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+06-15-2024 13:24 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-15-2024 13:24 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-15-2024 13:24 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-15-2024 13:24 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-15-2024 13:24 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-15-2024 13:24 [INFO] [MyPet]    added 'world' to 'default'
+06-15-2024 13:24 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-15-2024 13:24 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-15-2024 13:24 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-15-2024 13:24 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-15-2024 13:24 [INFO] [MyPet]    added 'shop' to 'default'
+06-15-2024 13:24 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-15-2024 13:24 [INFO] [MyPet]    added 'boss' to 'default'
+06-15-2024 13:24 [INFO] [MyPet] -------------------------------------------------
+06-15-2024 13:24 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-15-2024 13:42 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-15-2024 20:09 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-15-2024 20:09 [INFO] [MyPet] No Update available.
+06-15-2024 20:09 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-15-2024 20:09 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+06-15-2024 20:09 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-15-2024 20:09 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-15-2024 20:09 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-15-2024 20:09 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-15-2024 20:09 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-15-2024 20:09 [INFO] [MyPet]    added 'world' to 'default'
+06-15-2024 20:09 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-15-2024 20:09 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-15-2024 20:09 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-15-2024 20:09 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-15-2024 20:09 [INFO] [MyPet]    added 'shop' to 'default'
+06-15-2024 20:09 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-15-2024 20:09 [INFO] [MyPet]    added 'boss' to 'default'
+06-15-2024 20:09 [INFO] [MyPet] -------------------------------------------------
+06-15-2024 20:09 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-15-2024 20:21 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-15-2024 20:23 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-15-2024 20:23 [INFO] [MyPet] No Update available.
+06-15-2024 20:23 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-15-2024 20:23 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+06-15-2024 20:23 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-15-2024 20:23 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-15-2024 20:23 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-15-2024 20:23 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-15-2024 20:23 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-15-2024 20:23 [INFO] [MyPet]    added 'world' to 'default'
+06-15-2024 20:23 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-15-2024 20:23 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-15-2024 20:23 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-15-2024 20:23 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-15-2024 20:23 [INFO] [MyPet]    added 'shop' to 'default'
+06-15-2024 20:23 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-15-2024 20:23 [INFO] [MyPet]    added 'boss' to 'default'
+06-15-2024 20:23 [INFO] [MyPet] -------------------------------------------------
+06-15-2024 20:23 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-15-2024 23:18 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-16-2024 09:19 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-16-2024 09:19 [INFO] [MyPet] No Update available.
+06-16-2024 09:19 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-16-2024 09:19 [INFO] [MyPet] PlaceholderAPI (2.11.6) hook activated.
+06-16-2024 09:19 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-16-2024 09:19 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-16-2024 09:19 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-16-2024 09:19 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-16-2024 09:19 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-16-2024 09:19 [INFO] [MyPet]    added 'world' to 'default'
+06-16-2024 09:19 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-16-2024 09:19 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-16-2024 09:19 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-16-2024 09:19 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-16-2024 09:19 [INFO] [MyPet]    added 'shop' to 'default'
+06-16-2024 09:19 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-16-2024 09:19 [INFO] [MyPet]    added 'boss' to 'default'
+06-16-2024 09:19 [INFO] [MyPet] -------------------------------------------------
+06-16-2024 09:19 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-16-2024 10:10 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-16-2024 11:02 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-16-2024 11:02 [INFO] [MyPet] No Update available.
+06-16-2024 11:02 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-16-2024 11:02 [INFO] [MyPet] PlaceholderAPI (2.9.1) hook activated.
+06-16-2024 11:02 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-16-2024 11:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-16-2024 11:02 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-16-2024 11:02 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-16-2024 11:02 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-16-2024 11:02 [INFO] [MyPet]    added 'world' to 'default'
+06-16-2024 11:02 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-16-2024 11:02 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-16-2024 11:02 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-16-2024 11:02 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-16-2024 11:02 [INFO] [MyPet]    added 'shop' to 'default'
+06-16-2024 11:02 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-16-2024 11:02 [INFO] [MyPet]    added 'boss' to 'default'
+06-16-2024 11:02 [INFO] [MyPet] -------------------------------------------------
+06-16-2024 11:02 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-16-2024 12:55 [INFO] [MyPet] Disabling MyPet v2.3.5
+06-19-2024 19:48 [INFO] [MyPet] Enabling MyPet v2.3.5
+06-19-2024 19:48 [INFO] [MyPet] No Update available.
+06-19-2024 19:48 [INFO] [MyPet] MythicMobs (4.11.0-SNAPSHOT-SNAPSHOT) hook activated.
+06-19-2024 19:48 [INFO] [MyPet] PlaceholderAPI (2.9.1) hook activated.
+06-19-2024 19:48 [INFO] [MyPet] ProtocolLib (4.5.1) hook activated.
+06-19-2024 19:48 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: Essentials Economy) hook activated.
+06-19-2024 19:48 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+06-19-2024 19:48 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+06-19-2024 19:48 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+06-19-2024 19:48 [INFO] [MyPet]    added 'world' to 'default'
+06-19-2024 19:48 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-19-2024 19:48 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-19-2024 19:48 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+06-19-2024 19:48 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+06-19-2024 19:48 [INFO] [MyPet]    added 'shop' to 'default'
+06-19-2024 19:48 [INFO] [MyPet]    added 'sinhton' to 'default'
+06-19-2024 19:48 [INFO] [MyPet]    added 'boss' to 'default'
+06-19-2024 19:48 [INFO] [MyPet] -------------------------------------------------
+06-19-2024 19:48 [INFO] [MyPet] version 2.3.5-b1239 ENABLED
+06-19-2024 20:00 [INFO] [MyPet] Disabling MyPet v2.3.5

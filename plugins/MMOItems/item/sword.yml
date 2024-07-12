@@ -1,0 +1,46 @@
+SWORDX:
+  base:
+    material: STICK
+    custom-model-data: 99999.0
+    displayed-type: '&3FlorentinoX Sword'
+    ability:
+      ability1:
+        type: FLORENTINOSKILL_BLOSSOM
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+      ability3:
+        type: FLORENTINOSKILL_GENTLEMAN
+        cooldown: 15.0
+        mode: SHIFT_RIGHT_CLICK
+      ability2:
+        type: FLORENTINOSKILL_ATTACK
+        mode: LEFT_CLICK
+        cooldown: 0.1
+    unbreakable: true
+    name: '&6Sword &eFlorentinoX'
+KFLO:
+  material: DIAMOND_SWORD
+  ability:
+    ability1: {}
+GAYVIP:
+  material: STICK
+  hide-enchants: true
+  regeneration: 120.0
+  disable-enchanting: true
+  disable-repairing: true
+  item-particles:
+    type: GALAXY
+    amount: 30.0
+    speed: 2.0
+  ability:
+    ability1:
+      type: CONFUSE
+      mode: ON_HIT
+      cooldown: 0.0
+  enchants:
+    DAMAGE_ALL: 1
+  attack-speed: 999.0
+  name: §6§l Gậy Vip 90
+  lore:
+  - §7Xoay Người 90 độ đối thủ
+  displayed-type: §6§kKKKKKKKKKKKKKKKKKKKKK

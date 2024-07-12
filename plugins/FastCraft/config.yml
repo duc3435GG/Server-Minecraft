@@ -1,0 +1,31 @@
+# Plugin configuration for FastCraft
+
+# If the language specified does not exist, a new language file will
+# be added to the lang folder in the FastCraft plugin directory.
+# Available languages:
+# English (EN), Deutsch (DE), Español (ES)
+# Русский язык (RU), Čeština (CS),
+# Türkçe (TR), Nederlands (NL),
+# 中文 (ZH-CN), 台語 (ZH-TW),
+# Tiếng Việt (VI), Polskie (PL)
+language: EN
+
+# Whether FastCraft is enabled for players by default.
+default-enabled: true
+
+# Toolbar settings
+# gap:              Hide/show the gap above the toolbar.
+# layout:           Position of buttons in the toolbar, or -1 to hide.
+# multiplier-order: The multipliers used by the multiplier button.
+toolbar:
+  gap: true
+  layout:
+    page-prev: 0
+    page-next: 8
+    multiplier: 3
+    workbench: 4
+    refresh: 5
+  multiplier-order: 1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 64
+
+# If true, extra messages will be written to the console.
+debug: false

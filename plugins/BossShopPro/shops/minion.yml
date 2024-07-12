@@ -1,0 +1,116 @@
+ShopName: Minion
+DisplayName: '&2&lMinion'
+signs:
+  text: '[shopminion]'
+  NeedPermissionToCreateSign: true
+shop:
+  miner:
+    MenuItem:
+    - name:&4 Mini Miner
+    - amount:1
+    - type:NETHER_STAR
+    - lore:Cần 10000 POINT
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - minion give duc962009 Miner 1
+    PriceType: POINTS
+    Price: 10000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  slayer:
+    MenuItem:
+    - name:&4 Mini Slayer
+    - amount:1
+    - type:NETHER_STAR
+    - lore:Cần 10000 POINT
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - minion give duc962009 Slayer 1
+    PriceType: POINTS
+    Price: 10000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  collector:
+    MenuItem:
+    - name:&4 Mini Collector
+    - amount:1
+    - type:NETHER_STAR
+    - lore:Cần 10000 POINT
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - minion give duc962009 Collector 1
+    PriceType: POINTS
+    Price: 10000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  feeder:
+    MenuItem:
+    - name:&4 Mini Feeder
+    - amount:1
+    - type:NETHER_STAR
+    - lore:Cần 10000 POINT
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - minion give duc962009 Feeder 1
+    PriceType: POINTS
+    Price: 10000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Lumberjack:
+    MenuItem:
+    - name:&4 Mini Lumberjack
+    - amount:1
+    - type:NETHER_STAR
+    - lore:Cần 10000 POINT
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - minion give duc962009 Lumberjack 1
+    PriceType: POINTS
+    Price: 10000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Farmer:
+    MenuItem:
+    - name:&4 Mini Farmer
+    - amount:1
+    - type:NETHER_STAR
+    - lore:Cần 10000 POINT
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - minion give duc962009 Farmer 1
+    PriceType: POINTS
+    Price: 10000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Fisher:
+    MenuItem:
+    - name:&4 Mini Fisher
+    - amount:1
+    - type:NETHER_STAR
+    - lore:Cần 10000 POINT
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - minion give duc962009 Fisher 1
+    PriceType: POINTS
+    Price: 10000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Back:
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    RewardType: SHOP
+    Reward: menu
+    PriceType: NOTHING
+    Message: '&6Leaving the ItemShop...'
+    ExtraPermission: ''
+    InventoryLocation: 9

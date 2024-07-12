@@ -1,0 +1,10 @@
+Groups:
+  default:
+  - world
+  - world_nether
+  - world_the_end
+  - ASkyBlock
+  - ASkyBlock_nether
+  - shop
+  - sinhton
+  - boss

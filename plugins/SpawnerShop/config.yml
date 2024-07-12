@@ -1,0 +1,203 @@
+options:
+  shopname: Spawner Shop
+  openmessage: '&aOpening Spawner Shop'
+  signsuccess: '&3You have sucessfully created a SpawnerShop sign!'
+  inventorysize: 54
+  nopermission: '&aYou do not have permission to do that!'
+  cooldown: 1000000000
+  cooldownmessage: '&aYou can not use that command yet!'
+  currencysign: $
+  reloadsuccess: '&aYou have successfully reloaded SpawnerShop!'
+  prefix: '&7[&eSpawnerShop&7]'
+  nomoney: '&aYou do not have enough funds!'
+spawners:
+  Enderman:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 58
+  Blaze:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 6100000000
+  Skeleton:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 5100000000
+  Zombie:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 54
+  Creeper:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 50
+  CaveSpider:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 59
+  Spider:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 52
+  Wolf:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 95
+  Chicken:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 93
+  Cow:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 92
+  Pig:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 90
+  Ocelot:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 98
+  MushroomCow:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 96
+  Sheep:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 9100000000
+  Bat:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 65
+  Rabbit:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 1000000000100000000
+  Squid:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 94
+  Villager:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 10000000020
+  ZombiePigman:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 57
+  SilverFish:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 60
+  IronGolem:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 99
+  Slime:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 55
+  Horse:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 10000000000
+  Witch:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 66
+  MagmaCube:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 62
+  PolarBear:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 10000000002
+  Endermite:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 67
+  Evoker:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 34
+  Guardian:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 68
+  Shulker:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 69
+  Husk:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 23
+  Stray:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 6
+  Vex:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 35
+  Vindicator:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 36
+  Llama:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 10000000003
+  Mule:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 32
+  Illusioner:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 32
+  Parrot:
+    enabled: true
+    buy-price: 100000000
+    sell-price: 1
+    data-value: 10000000005

@@ -1,0 +1,33 @@
+ShopName: LilyPadServers
+DisplayName: '&c&lLilyPadServers'
+signs:
+  text: '[LilyPadServers]'
+  NeedPermissionToCreateSign: true
+shop:
+  EarthGame:
+    MenuItem:
+    - lore:&7Click to connect!
+    - name:&aNether
+    - amount:1
+    - type:STAINED_CLAY
+    - durability:3
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - mw goto world_nether
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Creative:
+    MenuItem:
+    - type:STAINED_CLAY
+    - amount:1
+    - name:&aThe end
+    - lore:&7Click to connect!
+    - durability:11
+    RewardType: PLAYERCOMMAND
+    Reward: 
+    - mw goto world_the_end
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 3

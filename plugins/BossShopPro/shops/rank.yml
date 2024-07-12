@@ -1,0 +1,62 @@
+ShopName: rank
+DisplayName: '&9&lRank'
+Command: rank
+signs:
+  text: '[RankShop]'
+  NeedPermissionToCreateSign: true
+shop:
+  vip:
+    MenuItem:
+    - name:&9Vip
+    - lore:Tăng kho đồ lên 20
+    - lore:Có quyền xem kho đồ người khác
+    - lore:Fix đồ
+    - lore:Chat màu
+    - lore:Cần 100,000,000 point
+    - lore:Số lượng minion :5
+    - amount:1
+    - type:IRON_BLOCK
+    - durability:11
+    RewardType: CONSOLE
+    Reward:
+    - lp user %player_name% promote sv
+    PriceType: POINTS
+    Price: 100000000
+    Message: '&eYou bought colored Wool! Money left: &c%left%'
+    ExtraPermission: 'm.vip'
+    InventoryLocation: 12
+  god:
+    MenuItem:
+    - name:&7God
+    - lore:Tăng kho đồ lên 100
+    - lore:Có quyền xem kho đồ người khác
+    - lore:Fix all đồ
+    - lore:Chat màu
+    - lore:Có thể bay
+    - lore:Có thể /hat
+    - lore:Cần 1,000,000,000 point
+    - lore:Số lượng minion :10
+    - amount:1
+    - type:DIAMOND_BLOCK
+    - durability:11
+    RewardType: CONSOLE
+    Reward:
+    - lp user %player_name% promote sv
+    PriceType: MONEY
+    Price: 1000000000
+    Message: '&eYou bought colored Wool! Money left: &c%left%'
+    ExtraPermission: 'm.god'
+    InventoryLocation: 16
+  Back:
+    MenuItem:
+    - lore:&8Back to Menu
+    - name:&cBack
+    - amount:1
+    - type:REDSTONE
+    RewardType: SHOP
+    Reward: menu
+    PriceType: NOTHING
+    Message: '&6Leaving the ItemShop...'
+    ExtraPermission: ''
+    InventoryLocation: 27
+ 
