@@ -1,3 +1,1 @@
-@echo off
-java -Xmx13000M -jar sv.jar
-pause
+java -Xmx7G -jar sv.jar --nogui
